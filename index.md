@@ -23,10 +23,10 @@ I am passionate about AI, game theory and algorithms. I have realized many proje
 This internship consisted in improving the web interface of Why3, a software allowing deductive program verification. I had to improve the recognition of C and Python languages as well as the web interface. The program can be tested [here](http://why3.lri.fr/try/).
 
 ### Main Projects
-+ [LiSA](https://github.com/LE10EENFAIT/LiSA-Path-Tracing-Renderer), a path tracing renderer ;
-+ [ViCTORIA](https://github.com/LE10EENFAIT/ViCTORIA), a chess engine ;
-+ [Deep ViCTORIA](https://github.com/LE10EENFAIT/Deep-ViCTORIA), another chess engine powered by deep learning ;
-+ [Neural Net](https://github.com/LE10EENFAIT/NeuralNet), a implementation of neural network in C++.
++ <a href="https://github.com/LE10EENFAIT/LiSA-Path-Tracing-Renderer" target="_blank">LiSA</a>, a path tracing renderer ;
++ <a href="https://github.com/LE10EENFAIT/ViCTORIA">ViCTORIA</a>, a chess engine ;
++ <a href="https://github.com/LE10EENFAIT/Deep-ViCTORIA">Deep ViCTORIA</a>, another chess engine powered by deep learning ;
++ <a href="https://github.com/LE10EENFAIT/NeuralNet">Neural Net</a>, a implementation of neural network in C++.
 
 ### Links
 + [CV](https://le10eenfait.github.io/assets/CV.pdf)
