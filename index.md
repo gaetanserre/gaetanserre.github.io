@@ -3,7 +3,7 @@
   Gaëtan Serré
 </h1>
 <p>
-<img src="assets/img-01.jpg" width=200 heigth=300>
+<img src="assets/gaetan_serre.jpg" width=200 heigth=300>
 </p>
 <p>
 Student in artificial intelligence at  the University of Paris-Saclay
