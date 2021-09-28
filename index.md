@@ -6,9 +6,10 @@
 <img src="assets/gaetan_serre.jpg" width=200 heigth=300>
 </p>
 <p>
-Student in artificial intelligence at  the University of Paris-Saclay
+Student in artificial intelligence master at  the University of Paris-Saclay
 </p>
 </div>
+
 
 
 
@@ -29,6 +30,6 @@ I am passionate about AI, game theory and compilation. I have realized many proj
 + <a href="https://github.com/Plagiat01/NeuralNet" target="_blank">Neural Net</a>: a implementation of neural network in C++.
 
 ### Links
-+ <a target="_blank" href="https://Plagiat01.github.io/assets/CV.pdf">CV</a>
++ <a target="_blank" href="https://Plagiat01.github.io/assets/CV_EN.pdf">CV(EN)</a> / <a target="_blank" href="https://Plagiat01.github.io/assets/CV_FR.pdf">CV(FR)</a>
 + <a target="_blank" href="https://github.com/Plagiat01">Github</a>
 + <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-serr%C3%A9-165974205/">LinkedIn</a>
