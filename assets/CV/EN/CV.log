@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.27)  9 NOV 2021 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  23 NOV 2021 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.tex
-(/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.tex
+**/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.tex
+(/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (/Users/gaetanserre/Documents/MasterAI/CV/EN/altacv.cls
+L3 programming layer <2021-02-18> (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/altacv.cls
 Document Class: altacv 2020/05/17 AltaCV v1.3.2, yet another alternative class for a resume/curriculum vitae.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -863,7 +863,7 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 99.
- (/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.aux)
+ (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.aux)
 \openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -916,7 +916,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
- (/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.out) (/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.out)
+ (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.out) (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.out)
 \@outlinefile=\write11
 \openout11 = `CV.out'.
 
@@ -977,16 +977,16 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CV.bbl' found.
- (/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.bbl)
+ (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.bbl)
 Package biblatex Info: Reference section=0 on input line 99.
 Package biblatex Info: Reference segment=0 on input line 99.
 \c@mv@tabular=\count457
 \c@mv@boldtabular=\count458
-<gaetan_serre.jpg, id=10, 728.4816pt x 971.3088pt>
+<gaetan_serre.jpg, id=10, 2326.6925pt x 2535.4725pt>
 File: gaetan_serre.jpg Graphic file (type jpg)
 <use gaetan_serre.jpg>
 Package pdftex.def Info: gaetan_serre.jpg  used on input line 123.
-(pdftex.def)             Requested size: 728.47983pt x 971.30644pt.
+(pdftex.def)             Requested size: 2326.68686pt x 2535.46635pt.
 
 Overfull \hbox (1.59999pt too wide) in paragraph at lines 123--123
 [][] 
@@ -1037,65 +1037,60 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 134.
 
-Overfull \hbox (4.6193pt too wide) in paragraph at lines 136--151
-[] [] [] 
+Overfull \hbox (5.25931pt too wide) in paragraph at lines 137--144
+[][] [] [] 
  []
 
 
-Overfull \hbox (1.77939pt too wide) in paragraph at lines 136--151
+Overfull \hbox (0.15436pt too wide) in paragraph at lines 137--144
 [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 153.
+(Font)              scaled to size 7.0pt on input line 146.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 161.
+(Font)              scaled to size 10.0pt on input line 154.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 218.
+(Font)              scaled to size 10.0pt on input line 211.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 218.
+(Font)              scaled to size 12.0pt on input line 211.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 227--227
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 222--222
 [][] []  
  []
 
-
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 230--230
-[][] []  
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 232.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 225.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 232.
+(Font)              scaled to size 9.0pt on input line 225.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 245--245
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 232--232
 [][] []  
  []
 
 
-Overfull \hbox (1.66982pt too wide) in paragraph at lines 254--257
-\T1/lato-TLF/m/n/10 from pho-tos us-ing ma-chine learn-ing al-go-rithms. (2$[]$ year. Su-per-vi-sor: Is-abelle Guyon) 
- []
-
-
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 263--263
-[][] []  
- []
-
-
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 269--269
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 239--239
 [][] []  
  []
 
 [1
 
- </Users/gaetanserre/Documents/MasterAI/CV/EN/gaetan_serre.jpg>]
+ </Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/gaetan_serre.jpg>]
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 277.
- [2] (/Users/gaetanserre/Documents/MasterAI/CV/EN/CV.aux)
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 260.
+
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 286--286
+[][] []  
+ []
+
+
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 292--292
+[][] []  
+ []
+
+[2] (/Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.aux)
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'CV.run.xml'.
@@ -1104,14 +1099,14 @@ Package logreq Info: Writing requests to 'CV.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  40103 strings out of 478994
- 781721 string characters out of 5858183
- 1473022 words of memory out of 5000000
+ 782180 string characters out of 5858183
+ 1465022 words of memory out of 5000000
  56919 multiletter control sequences out of 15000+600000
  670963 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,8n,104p,1171b,2448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 103i,8n,104p,1198b,2448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /Users/gaetanserre/Documents/MasterAI/CV/EN/CV.pdf (2 pages, 1751539 bytes).
+Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.pdf (2 pages, 2202888 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
