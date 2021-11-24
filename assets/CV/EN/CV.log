@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  23 NOV 2021 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  24 NOV 2021 04:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,12 +1081,12 @@ Overfull \hbox (2.55997pt too wide) in paragraph at lines 239--239
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 260.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 286--286
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 288--288
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 292--292
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 294--294
 [][] []  
  []
 
@@ -1100,15 +1100,15 @@ Package logreq Info: Writing requests to 'CV.run.xml'.
 Here is how much of TeX's memory you used:
  40103 strings out of 478994
  782180 string characters out of 5858183
- 1465022 words of memory out of 5000000
+ 1465021 words of memory out of 5000000
  56919 multiletter control sequences out of 15000+600000
  670963 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,8n,104p,1198b,2448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.pdf (2 pages, 2202888 bytes).
+Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.pdf (2 pages, 2203257 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
