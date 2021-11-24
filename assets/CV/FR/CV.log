@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  24 NOV 2021 04:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  24 NOV 2021 04:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,24 +1064,24 @@ Overfull \hbox (2.55997pt too wide) in paragraph at lines 222--222
 [][] []  
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 225.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 226.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 225.
+(Font)              scaled to size 9.0pt on input line 226.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 232--232
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 233--233
 [][] []  
  []
 
 
-Overfull \hbox (4.31601pt too wide) in paragraph at lines 239--239
+Overfull \hbox (4.31601pt too wide) in paragraph at lines 240--240
 []\T1/lato-TLF/m/n/12 Licence Dou-ble Diplôme Math-é-ma-tiques/Informatique [] [] | Uni-ver-sité Paris- 
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 239--239
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 240--240
 [][] []  
  []
 
@@ -1089,14 +1089,14 @@ Overfull \hbox (2.55997pt too wide) in paragraph at lines 239--239
 
  </Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/FR/gaetan_serre.jpg>]
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 260.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 262.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 287--287
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 295--295
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 293--293
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 301--301
 [][] []  
  []
 
@@ -1116,7 +1116,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  103i,8n,104p,1198b,2448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/FR/CV.pdf (2 pages, 2209175 bytes).
+Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/FR/CV.pdf (2 pages, 2209172 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
