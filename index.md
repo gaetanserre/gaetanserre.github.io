@@ -30,6 +30,6 @@ I am passionate about AI, machine learning, game theory and compilation. I have 
 + <a href="https://github.com/Plagiat01/NeuralNet" target="_blank">Neural Net</a>: a implementation of neural network in C++.
 
 ### Links
-+ <a target="_blank" href="https://Plagiat01.github.io/assets/EN/CV.pdf">CV(EN)</a> / <a target="_blank" href="https://Plagiat01.github.io/assets/CV/FR/CV.pdf">CV(FR)</a>
++ <a target="_blank" href="https://Plagiat01.github.io/assets/CV/EN/CV.pdf">CV(EN)</a> / <a target="_blank" href="https://Plagiat01.github.io/assets/CV/FR/CV.pdf">CV(FR)</a>
 + <a target="_blank" href="https://github.com/Plagiat01">Github</a>
 + <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-serr%C3%A9-165974205/">LinkedIn</a>
