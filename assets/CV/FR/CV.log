@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  24 NOV 2021 04:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.14)  24 NOV 2021 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1110,13 +1110,13 @@ Package logreq Info: Writing requests to 'CV.run.xml'.
 Here is how much of TeX's memory you used:
  40103 strings out of 478994
  782180 string characters out of 5858183
- 1466021 words of memory out of 5000000
+ 1466022 words of memory out of 5000000
  56919 multiletter control sequences out of 15000+600000
  670963 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,8n,104p,1198b,2448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/FR/CV.pdf (2 pages, 2209172 bytes).
+Output written on /Users/gaetanserre/Documents/Projects/Plagiat01.github.io/assets/CV/FR/CV.pdf (2 pages, 2209171 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
