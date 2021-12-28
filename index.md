@@ -21,7 +21,14 @@ I am passionate about AI, machine learning, game theory and compilation. I have 
 ### Interships
 + #### <a  target="_blank" href="https://www.inria.fr/">Inria</a> \& <a  target="_blank" href="https://lmf.cnrs.fr/">LMF</a>
   *May - July 2021* 
+  **Supervisors:** Jean-Christophe Filliâtre & Andrei Paskevich
+  
   This internship consisted in improving <a  target="_blank" href="http://why3.lri.fr/">Why3</a>, a software allowing deductive program verification. I had to enhance the recognition of Python language as well as the interface and the ergonomics of the online version. The program can be tested <a target="_blank" href="http://why3.lri.fr/try/">here</a>.
+
+### Challenges
+I have participated in several artificial intelligence challenges:
++ <a target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/573">Aerial Image Recognition</a>
++ <a target="_blank" href="https://competitions.codalab.org/competitions/25427">L2RPN NEURIPS 2020 - Adaptability Track</a>
 
 ### Main Projects
 + <a href="https://github.com/Plagiat01/GAiA" target="_blank">GAiA</a>: A chess program that uses a complex residual neural network specialized in image recognition. You can read the article I wrote about GAiA <a href="https://raw.githubusercontent.com/Plagiat01/GAiA/master/article/Performing%20Regression%20on%20Complex%20Data.pdf" target="_blank">here</a>.
