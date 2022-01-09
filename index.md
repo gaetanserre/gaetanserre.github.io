@@ -31,7 +31,7 @@ I have participated in several artificial intelligence challenges:
 + <a target="_blank" href="https://competitions.codalab.org/competitions/25427">L2RPN NEURIPS 2020 - Adaptability Track</a>
 
 ### Main Projects
-+ <a href="https://github.com/Plagiat01/GAiA" target="_blank">GAiA</a>: A chess program that uses a complex residual neural network specialized in image recognition. You can read the article I wrote about GAiA <a href="https://raw.githubusercontent.com/Plagiat01/GAiA/master/article/Performing%20Regression%20on%20Complex%20Data.pdf" target="_blank">here</a>.
++ <a href="https://github.com/Plagiat01/GAiA" target="_blank">GAiA</a>: A chess program that uses a complex residual neural network specialized in image recognition. You can read the article about GAiA <a href="https://raw.githubusercontent.com/Plagiat01/GAiA/master/article/Performing%20Regression%20on%20Complex%20Data.pdf" target="_blank">here</a>.
 + <a href="https://github.com/Plagiat01/Reinforcement-learning-examples" target="_blank">Reinforcement learning</a>: An implementation of various reinforcement learning algorithms (Q-Learning, Deep Q-Learning, Monte Carlo Tree Search with neural network, ...) on several games ;
 + <a href="https://github.com/Plagiat01/LiSA" target="_blank">LiSA</a>: a path tracing renderer ;
 + <a href="https://github.com/Plagiat01/NeuralNet" target="_blank">Neural Net</a>: a implementation of neural network in C++.

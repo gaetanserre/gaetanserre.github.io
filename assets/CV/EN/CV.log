@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.4)  4 JAN 2022 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.4)  9 JAN 2022 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,41 +1024,36 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 134.
 
-Overfull \hbox (7.4643pt too wide) in paragraph at lines 136--145
-[] [] [] 
- []
-
-
-Overfull \hbox (3.91434pt too wide) in paragraph at lines 136--145
+Overfull \hbox (8.14432pt too wide) in paragraph at lines 136--142
 [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 147.
+(Font)              scaled to size 7.0pt on input line 144.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 155.
+(Font)              scaled to size 10.0pt on input line 152.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 212.
+(Font)              scaled to size 10.0pt on input line 209.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 212.
+(Font)              scaled to size 12.0pt on input line 209.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 223--223
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 220--220
 [][] []  
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 227.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 224.
 (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 227.
+(Font)              scaled to size 9.0pt on input line 224.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 234--234
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 231--231
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 241--241
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 238--238
 [][] []  
  []
 
@@ -1066,40 +1061,40 @@ Overfull \hbox (2.55997pt too wide) in paragraph at lines 241--241
 
  </home/gaetan/Documents/Projects/Plagiat01.github.io/assets/CV/EN/gaetan_serre.jpg>]
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 271.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 268.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 306--306
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 303--303
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 314--314
+Overfull \hbox (2.55997pt too wide) in paragraph at lines 311--311
 [][] []  
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (/home/gaetan/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'CV.run.xml'.
 \openout1 = `CV.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
  40436 strings out of 481239
  780697 string characters out of 5920378
- 1382355 words of memory out of 5000000
+ 1381355 words of memory out of 5000000
  55054 multiletter control sequences out of 15000+600000
  799872 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,96p,1192b,2441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /home/gaetan/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.pdf (2 pages, 2206741 bytes).
+Output written on /home/gaetan/Documents/Projects/Plagiat01.github.io/assets/CV/EN/CV.pdf (2 pages, 2206465 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
