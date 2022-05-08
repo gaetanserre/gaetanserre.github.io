@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.7)  3 MAY 2022 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.7)  8 MAY 2022 16:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,7 +1116,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  103i,8n,104p,1200b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /Users/gaetanserre/Documents/Projects/gaetanserre.github.io/assets/CV/FR/CV.pdf (2 pages, 257982 bytes).
+Output written on /Users/gaetanserre/Documents/Projects/gaetanserre.github.io/assets/CV/FR/CV.pdf (2 pages, 258024 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
