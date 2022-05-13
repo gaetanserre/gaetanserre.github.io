@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber CV"] 1652396589 "CV.bcf" "CV.bbl" "CV" 1652396593
-  "CV.bcf" 1652396593 106534 02c039e1d348d027af024730669235f6 "pdflatex"
+["biber CV"] 1652396589 "CV.bcf" "CV.bbl" "CV" 1652438484
+  "CV.bcf" 1652438484 106534 02c039e1d348d027af024730669235f6 "pdflatex"
   (generated)
   "CV.bbl"
   "CV.blg"
-["pdflatex"] 1652396591 "/home/gaetan/Documents/Projects/gaetanserre.github.io/assets/CV/EN/CV.tex" "CV.pdf" "CV" 1652396593
+["pdflatex"] 1652438482 "/home/gaetan/Documents/Projects/gaetanserre.github.io/assets/CV/EN/CV.tex" "CV.pdf" "CV" 1652438484
   "/etc/texmf/web2c/texmf.cnf" 1652392469 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/gaetan/Documents/Projects/gaetanserre.github.io/assets/CV/EN/CV.tex" 1652396587 12148 05941fab90f5ff9c7479bf2ea7594794 ""
+  "/home/gaetan/Documents/Projects/gaetanserre.github.io/assets/CV/EN/CV.tex" 1652438482 12486 115ab1b82fa50a20acf81bfabfad8ccd ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -271,14 +271,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1652392487 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1652392510 2800145 9477a63d0c7f2412d6f441de618c1966 ""
-  "CV.aux" 1652396593 796 05682250128f0b674d21cc2e1863ab25 "pdflatex"
-  "CV.bbl" 1652396590 0 d41d8cd98f00b204e9800998ecf8427e "biber CV"
-  "CV.out" 1652396592 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.run.xml" 1652396593 2216 1ec40dc0d41a46466c9f944bfa4acf90 "pdflatex"
-  "CV.tex" 1652396587 12148 05941fab90f5ff9c7479bf2ea7594794 ""
-  "altacv.cls" 1652396570 15217 49c0c16871a56d1a0566c8cf3f423a3f ""
-  "gaetan_serre.jpg" 1652396570 76416 8ccb406dc12211e677524c52f5b7cfc0 ""
-  "pdfa.xmpi" 1652396592 5042 40c293d67ebbbb62c778db4352473bd6 "pdflatex"
+  "CV.aux" 1652438484 796 05682250128f0b674d21cc2e1863ab25 "pdflatex"
+  "CV.bbl" 1652437865 0 d41d8cd98f00b204e9800998ecf8427e "biber CV"
+  "CV.out" 1652438483 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.run.xml" 1652438484 2216 1ec40dc0d41a46466c9f944bfa4acf90 "pdflatex"
+  "CV.tex" 1652438482 12486 115ab1b82fa50a20acf81bfabfad8ccd ""
+  "altacv.cls" 1652437865 15217 49c0c16871a56d1a0566c8cf3f423a3f ""
+  "gaetan_serre.jpg" 1652437865 76416 8ccb406dc12211e677524c52f5b7cfc0 ""
+  "pdfa.xmpi" 1652438482 5042 b69b91519f5dda84cd40a3e24e25b970 "pdflatex"
   (generated)
   "CV.aux"
   "CV.bcf"
