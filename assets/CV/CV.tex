@@ -96,9 +96,11 @@
 %% sample.bib contains your publications
 %% \addbibresource{sample.bib}
 
+\newcommand{\hrefc}[2]{\href{#1}{\textcolor{ThirdColor}{#2}}}
+
 \begin{document}
     \name{Gaëtan Serré}
-    \tagline{Master Artificial Intelligence -- Paris-Saclay}
+    \tagline{Artificial Intelligence Master -- Paris-Saclay}
     %% You can add multiple photos on the left or right
     \photoL{4cm}{gaetan_serre}
     
@@ -131,8 +133,8 @@
     % break across pages if things get too long.
     \begin{paracol}{2}
         % ----- STRENGTHS -----
-        \cvsection{Compétences}
-          \cvsubsection{Programmation}
+        \cvsection{Skills}
+          \cvsubsection{Programming}
             \cvtag{Python} \cvtag{Tensorflow} \cvtag{Pytorch}
             \cvtag{SB3} \cvtag{RLlib}
             \cvtag{C++} \cvtag{CUDA} \cvtag{ONNX}
@@ -140,19 +142,19 @@
             \cvtag{Java}
           \medskip
             
-            \cvsubsection{Bureautique}
-                \cvtag{\LaTeX}
-                \cvtag{Office Suite}
+            \cvsubsection{Office software}
+              \cvtag{\LaTeX}  
+              \cvtag{Office suite}
         % ----- STRENGTHS -----
 
             
         
         % ----- LANGUAGES -----
-        \cvsection{Langues}
-            \cvlang{Français}{Langue maternelle}\\
+        \cvsection{Languages}
+            \cvlang{French}{Native}\\
             \divider
             
-            \cvlang{Anglais}{TOEIC 945}
+            \cvlang{English}{Fluent (TOEIC 945)}
             %% Yeah I didn't spend too much time making all the
             %% spacing consistent... sorry. Use \smallskip, \medskip,
             %% \bigskip, \vpsace etc to make ajustments.
@@ -160,14 +162,14 @@
         % ----- LANGUAGES -----
         
         % ----- LOISIRS -----
-        \cvsection{Loisirs}
-            \cvlang{Échecs} {\textasciitilde 1300 Elo}\\
+        \cvsection{Hobbies}
+            \cvlang{Chess} {\textasciitilde 1300 Elo}\\
             \divider
-            \cvlang{Taekwondo} {champion Paris et vice-champion IDF en 2016}\\
+            \cvlang{Taekwondo} {Paris champion and IDF vice-champion in 2016}\\
             \divider\\
-            \cvlang{Piano} {depuis 2020}\\
+            \cvlang{Piano} {since 2020}\\
             \divider\\
-            \cvlang{Escape Game} {depuis 2018}
+            \cvlang{Escape Game} {since 2018}
 
             \smallskip
         % ----- LOISIRS -----
@@ -186,7 +188,7 @@
         % \cvsection{A Day of My Life}
         
         % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-        % \wheelchart{outer radius}{inner radius}{
+        %\wheelchart{outer radius}{inner radius}{
         % comma-separated list of value/text width/color/detail}
         % \wheelchart{1.5cm}{0.5cm}{%
         %   6/8em/accent!30/{Sleep,\\beautiful sleep},
@@ -205,110 +207,118 @@
         \switchcolumn
         
         % ----- ABOUT ME -----
-        \cvsection{Profil}
+        \cvsection{About me}
             \begin{quote}
-                J'étudie dans le master Artificial Intelligence de Paris-Saclay.
-                Je suis passionné par l'apprentissage profond, l'apprentissage par renforcement,
-                la théorie des jeux et la compilation.
-                J'ai réalisé de nombreux projets, tous disponibles sur mon Github.
+              I am studying in the Artificial Intelligence master of Paris-Saclay.
+              I am passionate about reinforcement learning, game theory,
+              representation learning and computer graphics.
+              I have done many projects, all available on my Github.
             \end{quote}
         % ----- ABOUT ME -----
         
         
         % ----- EDUCATION -----
-        \cvsection{Formation}
-            \cvevent{Master Artificial Intelligence }{| Université Paris-Saclay}{Sept. 2021 -- Juin 2022}{Orsay, France}
-            Cours notables :
-            \vspace{2pt}
+        \cvsection{EDUCATION}
+            \cvevent{Master Artificial Intelligence }{| Université Paris-Saclay}{Sept. 2021 -- June 2022}{Gif-Sur-Yvette, France}
+            Noteworthy courses:
+            \vspace{4pt}
             \begin{itemize}
-                \item Applied statistics (Encadrant : Marie-Anne Poursat)
-                \item Mathematics for data science (Encadrant : Marcella Bonazzoli)
-                \item Fundamental principles of machine learning (Encadrant : François Landes)
-                \item Deep learning (Encadrant : Caio Corro)
+              \item Applied statistics (Supervisor: Marie-Anne Poursat)
+              \item Mathematics for data science (Supervisor: Marcella Bonazzoli)
+              \item Fundamental principles of machine learning (Supervisor: François Landes)
+              \item Deep learning (Supervisor: Caio Corro)
             \end{itemize}
             \divider
 
-            \cvevent{Licence Double Diplôme Mathématiques/Informatique }{| Université Paris-Saclay}{Sept. 2018 -- Juin 2021}{Orsay, France}
+            \cvevent{Double bachelor degree mathematics/computer science}{| Université Paris-Saclay}{Sept. 2018 -- June 2021}{Gif-Sur-Yvette, France}
             \begin{itemize}
-                \item Mention Bien
+                \item With honors
             \end{itemize}
             
         % ----- EDUCATION -----
 
         % ----- EXPERIENCE -----
-        \cvsection{Experience Professionnelle}
-        \cvevent{Stage | }{INRIA \& RTE}{Mai -- Août 2022}{Gif-Sur-Yvette, France}
-        \textbf{Encadrant :} Isabelle Guyon\\
-        \vspace{3pt}
-        Durant ce stage j'ai participé à la création de l'édition 2022 du challenge
-        \href{https://l2rpn.chalearn.org/}{\textit{Learn to Run a Power Network}} en partenariat avec l'INRIA et
-        \href{https://www.rte-france.com/}{\textit{RTE}}.
-        Mon but était de générer les données de la compétition et de créer un agent d'apprentissage par renforcement
-        qui servirait de baseline à la compétition. J'ai pu me rendre à la conférence
-        \href{https://wcci2022.org/}{\textit{WCCI}} pour présenter cette édition.
+        \cvsection{Experience}
         
+        \cvevent{Internship | }{INRIA \& RTE}{May -- August 2022}{Gif-Sur-Yvette, France}
+        \textbf{Supervisor:} Isabelle Guyon\\
+        \vspace{3pt}
+        Organization of the new edition of
+        \hrefc{https://l2rpn.chalearn.org/}{Learning to Run a Power Network},
+        a challenge joining reinforcement learning and electrical network
+        in partnership with Réseau de Transport d'Électricité.
+        Creation of a baseline agent merging RL and expert rules to stimulate the participants.
+        I submitted a \hrefc{https://arxiv.org/abs/2207.10330}{paper} to IEEE SSCI as principal
+        author \& presented this edition at the IEEE WCCI conference.
+
         \divider
 
-        \cvevent{Stage | }{LMF - INRIA}{Mai -- Juin 2021}{Gif-Sur-Yvette, France}
-        \textbf{Encadrants :} Jean-Christophe Filliâtre \& Andrei Paskevich\\
+        \cvevent{Internship | }{LMF -- INRIA}{May -- June 2021}{Gif-Sur-Yvette, France}
+        \textbf{Supervisors:} Jean-Christophe Filliâtre \& Andrei Paskevich\\
         \vspace{3pt}
-        Ce stage avait pour but d'améliorer \href{http://why3.lri.fr/}{\textit{Why3}}, un logiciel de vérification déductive de programme.
-        Cela m'a permis de me familiariser avec le monde de la recherche au sein un grand laboratoire d'informatique.\\
-        % ----- EXPERIENCE -----
+        The purpose of this internship was to improve \hrefc{http://why3.lri.fr/}{Why3},
+        a deductive program verification software.
+        This allowed me to become familiar with the world of research in a
+        large computer science laboratory.
 
         \pagebreak
+
         % ----- CHALLENGES -----
         \cvsection{Challenges}
-          J'ai participé à plusieurs challenges d'intelligence artificielle:
+          I have participated in several artificial intelligence challenges:
+          \vspace{4pt}
           \begin{itemize}
-            \item \href{https://codalab.lisn.upsaclay.fr/competitions/573}{Aerial Image Recognition}
-            \item \href{https://competitions.codalab.org/competitions/25427}{L2RPN NEURIPS 2020 - Adaptability Track}
+            \item \hrefc{https://codalab.lisn.upsaclay.fr/competitions/5410}{L2RPN WCCI 2022}
+            \item \hrefc{https://competitions.codalab.org/competitions/25427}{L2RPN NEURIPS 2020 - Adaptability Track}
+            \item \hrefc{https://codalab.lisn.upsaclay.fr/competitions/573}{Aerial Image Recognition}
           \end{itemize}
 
         % ----- PROJECTS -----
-        \cvsection{Quelques projets}
+        \cvsection{Some projects}
+          \cvevent{L2RPN 2022 PPO Baseline |}{\cvrepo{\faGithub}{https://github.com/gaetanserre/L2RPN-2022_PPO-Baseline}}
+          {2022}{}
+          The code of the baseline agent provided in the 2022 edition of
+          Learning to Run a Power Network.\\
+          \vspace{4pt}
+          \cvtag{RL}
+          \cvtag{SB3}
+          \cvtag{Pytorch}\\
+          \vspace{4pt}
+          \divider
+
             \cvevent{GAiA |}{\cvrepo{\faGithub}{https://github.com/gaetanserre/GAiA}}
-            {Avril 2021}{}
-            Un programme d'échecs qui utilise un réseau neuronal résiduel complexe spécialisé dans la reconnaissance d'images.\\
-            Vous pouvez lire le rapport à propos de GAiA
-            \href{https://raw.githubusercontent.com/gaetanserre/GAiA/master/report/Performing%20Regression%20on%20Complex%20Data.pdf}
-            {\textbf{ici}}.\\
+            {2021}{}
+            A chess program that uses a complex residual neural network specialized in image recognition.\\
+            You can read the report about GAiA
+            \hrefc{https://raw.githubusercontent.com/gaetanserre/GAiA/master/report/Performing\%20Regression\%20on\%20Complex\%20Data.pdf}
+            {here}.\\
             \vspace{4pt}
+            \cvtag{CNN}
+            \cvtag{Game theory}
             \cvtag{Pytorch}
             \cvtag{C++}
             \cvtag{ONNX}\\
             \vspace{4pt}
             \divider
 
-            \cvevent{Reinforcement learning algorithms |}{\cvrepo{\faGithub}{https://github.com/gaetanserre/Reinforcement-learning-algorithms}}
-            {Nov. 2021}{}
-            Une implémentation de plusieurs algorithmes d'apprentissage par renforcement
-            (Q-Learning, Deep Q-Learning, AlphaZero)
-            sur différents jeux.\\
-            \vspace{4pt}
-            \cvtag{Python}
-            \cvtag{Tensorflow}
-            \cvtag{Pytorch}\\
-            \vspace{4pt}
-            \divider
-
             \cvevent{AlphaZero (RLlib) |}{\cvrepo{\faGithub}{https://github.com/gaetanserre/ray}}
-            {Mai 2022}{}
-            Une implémentation de l'algorithme AlphaZero dans un fork de la librairie RLlib.\\
+            {2022}{}
+            An implementation of the AlphaZero algorithm in a fork of the RLlib library.\\
             \vspace{4pt}
+            \cvtag{RL}
             \cvtag{Python}
             \cvtag{Pytorch}\\
             \vspace{4pt}
             \divider
-
+            
             \cvevent{VAE |}{\cvrepo{\faGithub}{https://github.com/gaetanserre/Variational-Auto-Encoder}}
-            {Avril 2022}{}
-            Une implémentation d'un Variational Auto Encoder.\\
+            {2022}{}
+            An implementation of a Variational Auto Encoder.\\
             \vspace{4pt}
             \cvtag{Python}
             \cvtag{Pytorch}\\
             \vspace{4pt}
         % ----- PROJECTS -----
-
+        
     \end{paracol}
 \end{document}
