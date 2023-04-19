@@ -77,7 +77,8 @@
 			\cvContactSpace \faIcon{phone} \@mobile\\
 			\href{\@github}{\faIcon{github} GitHub}
 			\cvContactSpace \href{\@linkedin}{\faIcon{linkedin} LinkedIn}
-			\cvContactSpace \href{\@website}{\faIcon{globe-europe} Website}\\~{\Large \\~\\}}
+			\cvContactSpace \href{\@website}{\faIcon{globe-europe} Website}
+            \cvContactSpace 07/02/2000 - Paris\\~{\Large \\~\\}}
 	\end{center}
 }
 %	CV SECTION
@@ -92,6 +93,13 @@
 	\ifthenelse{\isempty{#5}}{\\}{\tab \begin{minipage}{14cm}#5\end{minipage}\\~\\}
 }
 
+\definecolor{blue}{RGB}{129, 93, 225}
+\newcommand{\CVBlockWithTimeIntern}[6]{
+	\tab \texttt{\Large \textbf{#1}} \hfill \textbf{\large #2}\\
+	\tab \textbf{#3} \textit{\color{blue} #4} \hfill #5\\
+	\ifthenelse{\isempty{#6}}{\\}{\tab \begin{minipage}{14cm}#6\end{minipage}\\~\\}
+}
+
 \newcommand{\CVBlockItWithTime}[4]{
 	\tab \texttt{ \textit{#1}} \hfill \textbf{ #2}\\
 	\tab #3 \hfill #4\\
@@ -104,4 +112,3 @@
 
 %	 CV Text block
 \newcommand{\CVTextBlock}[1]{\tab {\large \begin{minipage}{18cm}#1\end{minipage}}\\~\\}
-
