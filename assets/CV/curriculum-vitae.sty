@@ -6,7 +6,7 @@
 %----------------------------------------------------------------------------------------
 \RequirePackage[utf8]{inputenc}    			% Input-encoding
 \RequirePackage{xstring, xifthen}			% provides \isempty test
-\RequirePackage{fontawesome5, moresize}		% Fonts
+\RequirePackage{fontawesome5, moresize, academicons}		% Fonts
 \RequirePackage{fontenc, fontspec}			% Fonts
 
 
@@ -49,6 +49,7 @@
 \def\secondLetter#1#2@{#2}
 \newcommand\tab[1][.9cm]{\hspace*{#1}}
 \newcommand{\cvContactSpace}{\quad\textcolor{red}{$\bullet$}\quad}
+\newcommand{\cvContactSpaceNoBullet}{\quad\textcolor{red}{$\bullet$}\quad}
 \newcommand{\cvContactSep}{\textcolor{red}{\textbf{|}} }
 %============================================================================%
 %	CV COMMANDS
@@ -62,6 +63,7 @@
 \newcommand*{\setlinkedin}[1]{\def\@linkedin{#1}}
 \newcommand*{\setgithub}[1]{\def\@github{#1}}
 \newcommand*{\setwebsite}[1]{\def\@website{#1}}
+\newcommand*{\setscholar}[1]{\def\@scholar{#1}}
 \newcommand*{\setaccent}[3]{\definecolor{red}{RGB}{#1, #2, #3}}
 %	CV TITLE
 \newcommand{\cvtitle}[1]{
@@ -74,11 +76,11 @@
 		{\fontsize{12}{0}\selectfont
 			\href{mailto:\@mail}{\faIcon{envelope} \@mail}
 			\cvContactSpace \@address
-			\cvContactSpace \faIcon{phone} \@mobile\\
-			\href{\@github}{\faIcon{github} GitHub}
-			\cvContactSpace \href{\@linkedin}{\faIcon{linkedin} LinkedIn}
-			\cvContactSpace \href{\@website}{\faIcon{globe-europe} Website}
-            \cvContactSpace 07/02/2000 - Paris\\~{\Large \\~\\}}
+			\cvContactSpace \faIcon{phone} \@mobile\\\vspace{1em}
+			\href{\@github}{\faIcon{github}}
+            \quad\quad \href{\@scholar}{{\aiicon{googlescholar}}}
+			\quad\quad \href{\@linkedin}{\faIcon{linkedin}}
+			\quad\quad \href{\@website}{\faIcon{globe-europe}}\\~{\Large \\~\\}}
 	\end{center}
 }
 %	CV SECTION
