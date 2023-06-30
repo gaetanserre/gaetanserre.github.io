@@ -8,7 +8,8 @@
 \RequirePackage{xstring, xifthen}			% provides \isempty test
 \RequirePackage{fontawesome5, moresize, academicons}		% Fonts
 \RequirePackage{fontenc, fontspec}			% Fonts
-
+\RequirePackage{graphicx, tikz, tikzpagenodes}                   % Profile picture
+\usetikzlibrary{calc} 
 
 \setmainfont{Museo Sans}[
 	Path=./,
@@ -26,6 +27,7 @@
 %\definecolor{red}{RGB}{205, 164, 212}
 \definecolor{black}{RGB}{23, 23, 23}
 \definecolor{gray}{RGB}{147, 147, 147}
+\definecolor{ens}{HTML}{019792}
 \RequirePackage[pdfusetitle,
 	hidelinks,		
 	pdfborder		={0 0 0},		% Avoid borders in PDF
@@ -56,6 +58,7 @@
 %============================================================================%
 %	SETTING UP INFO
 \newcommand*{\setname}[2]{\def\@firstname{#1}\def\@lastname{#2}}
+\newcommand*{\setprofilepicture}[1]{\def\@profilepicture{#1}}
 \newcommand*{\setaddress}[1]{\def\@address{#1}}
 \newcommand*{\setmobile}[1]{\def\@mobile{#1}}
 \newcommand*{\setposition}[1]{\def\@position{#1}}
@@ -65,14 +68,29 @@
 \newcommand*{\setwebsite}[1]{\def\@website{#1}}
 \newcommand*{\setscholar}[1]{\def\@scholar{#1}}
 \newcommand*{\setaccent}[3]{\definecolor{red}{RGB}{#1, #2, #3}}
+
+\setlength\parindent{0pt}
+
 %	CV TITLE
-\newcommand{\cvtitle}[1]{
+\newcommand{\cvtitle}[2]{
+    %\includegraphics[height=0.2\textwidth]{\@profilepicture}
+    \begin{minipage}[t]{0.38\textwidth}
+    \hspace*{0.4cm}
+    \begin{tikzpicture}[baseline=(ola.center),inner sep=0pt]
+    \clip (0,0)  circle (2cm) node (ola) {\includegraphics[width=4cm]{\@profilepicture}};
+    \end{tikzpicture}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.61\textwidth}
+    {\fontsize{27}{0}\selectfont
+			\texttt{\@firstname \ {\color{gray}{\@lastname}} }
+    }\\
+    \vspace{0.5em}\\
+    {\fontsize{20}{0}\textcolor{red}{\textbf{#1}}\\
+    \vspace{0.2em}\\
+    {\textcolor{ens}{\textbf{#2}}}}\\
+    \end{minipage} 
 	\begin{center}
-		{\fontsize{27}{0}\selectfont
-			\texttt{\@firstname \ {\color{gray}{\@lastname}} }\\
-			\vspace*{0.2cm}
-			}{\fontsize{20}{0} \textcolor{red}{\textbf{#1}}}\\
-			\vspace*{0.3cm}
 		{\fontsize{12}{0}\selectfont
 			\href{mailto:\@mail}{\faIcon{envelope} \@mail}
 			\cvContactSpace \@address
@@ -95,10 +113,9 @@
 	\ifthenelse{\isempty{#5}}{\\}{\tab \begin{minipage}{14cm}#5\end{minipage}\\~\\}
 }
 
-\definecolor{blue}{RGB}{129, 93, 225}
 \newcommand{\CVBlockWithTimeIntern}[6]{
 	\tab \texttt{\Large \textbf{#1}} \hfill \textbf{\large #2}\\
-	\tab \textbf{#3} \textit{\color{blue} #4} \hfill #5\\
+	\tab \textbf{#3} \textit{\color{ens} #4} \hfill #5\\
 	\ifthenelse{\isempty{#6}}{\\}{\tab \begin{minipage}{14cm}#6\end{minipage}\\~\\}
 }
 
