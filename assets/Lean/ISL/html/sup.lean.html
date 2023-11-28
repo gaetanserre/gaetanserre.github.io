@@ -14,9 +14,15 @@
 
 <span class="kd">def</span> is_sup {E : <span class="kt">Type</span><span class="bp">*</span>} [LE E] (A : Set E) (a : E) := a <span class="bp">∈</span> (up_bounds A) <span class="bp">∧</span> <span class="bp">∀</span>x <span class="bp">∈</span> (up_bounds A), a <span class="bp">≤</span> x
 
+<span class="c">/-</span>
+<span class="cm">Addition between two elements of the same set.</span>
+<span class="cm">-/</span>
 <span class="kd">instance</span> [OrderedAddCommGroup E] : HAdd (Set E) (Set E) (Set E) where
   hAdd A B := {x : E <span class="bp">|</span> <span class="bp">∃</span>a <span class="bp">∈</span> A, <span class="bp">∃</span>b <span class="bp">∈</span> B,  x <span class="bp">=</span> a <span class="bp">+</span> b}
 
+<span class="c">/-</span>
+<span class="cm">Multiplication between Real and Set.</span>
+<span class="cm">-/</span>
 <span class="kd">instance</span> [HMul ℝ E E] : HMul ℝ (Set E) (Set E) where
   hMul c A := {x : E <span class="bp">|</span> <span class="bp">∃</span>a <span class="bp">∈</span> A, x <span class="bp">=</span> c <span class="bp">*</span> a}
 
@@ -25,7 +31,7 @@
 <span class="kd">variable</span> [CovariantClass E E (<span class="k">fun</span> a b <span class="bp">=&gt;</span> a <span class="bp">+</span> b) <span class="k">fun</span> a b <span class="bp">=&gt;</span> a <span class="bp">≤</span> b] [CovariantClass E E (Function.swap <span class="k">fun</span> a b <span class="bp">=&gt;</span> a <span class="bp">+</span> b) <span class="k">fun</span> a b <span class="bp">=&gt;</span> a <span class="bp">≤</span> b]
 
 <span class="c">/-</span>
-<span class="cm">Multiplication between elements of E and absolute value of real number. This is verified for classical finite and infinite dimension spaces.</span>
+<span class="cm">Properties on the multiplication between elements of E and absolute value of real number. This is verified for classical finite and infinite dimension spaces.</span>
 <span class="cm">-/</span>
 <span class="kd">variable</span> (c : ℝ)
 <span class="kd">variable</span> (le_mul_pos : <span class="bp">∀</span> (a b : E), a <span class="bp">≤</span> b <span class="bp">↔</span> <span class="bp">|</span>c<span class="bp">|</span> <span class="bp">*</span> a <span class="bp">≤</span> <span class="bp">|</span>c<span class="bp">|</span> <span class="bp">*</span> b)
