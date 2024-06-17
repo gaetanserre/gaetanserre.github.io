@@ -190,3 +190,7 @@ li {
   color: var(--dark-grey);
   text-align: right;
 }
+
+.asahi:hover {
+  transform: scale(1.1);
+}
