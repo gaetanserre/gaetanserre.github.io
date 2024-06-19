@@ -191,8 +191,12 @@ li {
   text-align: right;
 }
 
+.asahi {
+  transition: all 500ms;
+}
+
 .asahi:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .ring-container {
