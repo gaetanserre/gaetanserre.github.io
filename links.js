@@ -6,6 +6,7 @@ $(document).ready(function() {
            && (obj.hostname != location.hostname)
            && !obj.href.match(/^javascript\:/)
            && !obj.href.match(/^$/)
+           && !obj.classList.contains("ring")
   };
   
   $('a:external').attr('target', '_blank');

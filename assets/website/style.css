@@ -194,3 +194,7 @@ li {
 .asahi:hover {
   transform: scale(1.1);
 }
+
+.ring{
+  border-bottom: none;
+}
