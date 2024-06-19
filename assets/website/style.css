@@ -203,6 +203,14 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+.ring-container a {
+  transition: all 500ms;
+}
+
+.ring-container a:hover {
+  font-size:15pt;
+}
+
 .ring-link {
   border-bottom: none;
 }
