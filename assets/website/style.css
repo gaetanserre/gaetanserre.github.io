@@ -151,7 +151,7 @@ li {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .column_l {
     width: 100%;
     border-right: none;
@@ -195,6 +195,14 @@ li {
   transform: scale(1.1);
 }
 
-.ring{
+.ring-container {
+  margin: auto;
+  font-size: 11pt;
+  background: -webkit-linear-gradient(0deg, #1a2389, #a12565);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ring-link {
   border-bottom: none;
 }
