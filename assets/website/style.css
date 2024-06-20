@@ -208,13 +208,11 @@ li {
 }
 
 .ring-container a {
-  transition: all 500ms;
+  border-bottom: none;
 }
 
 .ring-container a:hover {
-  font-size:15pt;
-}
-
-.ring-link {
-  border-bottom: none;
+  background: #d3506f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
