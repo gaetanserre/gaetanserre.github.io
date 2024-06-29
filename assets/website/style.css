@@ -1,12 +1,12 @@
 :root{
-  --accent:   #4412A3;
+  --accent:   #341655;
   /* --background:   #dddddd; */
-  --background: #cacce3;
-  --mid_accent: #5a0fc5;
-  --light-accent: #9b2bbf;
+  --background: #d2c9e5;
+  --mid_accent: #5641a2;
+  --light-accent: #8864b3;
   --dark-grey: #444444;
-  --light-light-accent: #df96b0;
-  --mail: #B745C3;
+  --light-light-accent: #b3b6ee;
+  --mail: #8206a0;
 }
 
 html {
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: var(--light-light-accent);
+  color: var(--light-accent);
   border-bottom: none;
 }
 
