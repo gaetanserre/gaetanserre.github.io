@@ -201,18 +201,17 @@ li {
 
 .ring-container {
   margin: auto;
-  font-size: 11pt;
-  background: -webkit-linear-gradient(0deg, #1a2389, #a12565);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 13pt;
+  color: #3d1f9b;
 }
 
 .ring-container a {
+  font-size: 18;
+  font-weight: bold;
   border-bottom: none;
+  color: #3d1f9b;
 }
 
 .ring-container a:hover {
-  background: #d3506f;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--light-accent);
 }
