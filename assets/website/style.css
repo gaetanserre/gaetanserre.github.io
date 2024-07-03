@@ -77,7 +77,7 @@ li {
 .name {
   font-size: 35pt;
   color: var(--mid_accent);
-  padding: 0.2em 0;
+  padding: 0.4em 0;
   border-bottom: 4px dashed black;
   width: 100%;
 }
