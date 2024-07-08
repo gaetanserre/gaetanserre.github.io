@@ -5,13 +5,6 @@
   src: local("Museo Sans Rounded 500"), url("MuseoSansRounded500.woff") format("woff");
 }
 
-@font-face {
-  font-family: "Courrier";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Courrier New"), url("CourrierNew.ttf") format("ttf");
-}
-
 :root{
   --accent:   #341655;
   /* --background:   #dddddd; */
@@ -102,14 +95,14 @@ li {
 }
 
 .project_title {
-  font-family: "Courrier";
+  font-family: "Museo";
   font-variant: small-caps;
   font-weight: bold;
   font-size: 16pt;
 }
 
 .date {
-  font-family: "Courrier";
+  font-family: "Museo";
   font-weight: bold;
   float: right;
 }
