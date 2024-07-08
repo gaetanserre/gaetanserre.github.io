@@ -2,14 +2,14 @@
   font-family: "Museo";
   font-style: normal;
   font-weight: normal;
-  src: local("Museo Sans Rounded 300"), url("asset/fonts/MuseoSansRounded300.woff") format("woff");
+  src: local("Museo Sans Rounded 300"), url("../fonts/MuseoSansRounded300.woff") format("woff");
 }
 
 @font-face {
   font-family: "Courrier";
   font-style: normal;
   font-weight: normal;
-  src: local("Courrier New"), url("asset/fonts/CourrierNew.ttf") format("ttf");
+  src: local("Courrier New"), url("../fonts/CourrierNew.ttf") format("ttf");
 }
 
 :root{
