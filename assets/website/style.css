@@ -1,8 +1,22 @@
 @font-face {
-  font-family: "Museo";
+  font-family: "Museo500";
   font-style: normal;
   font-weight: normal;
   src: local("Museo Sans Rounded 500"), url("MuseoSansRounded500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Museo100";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Museo Sans Rounded 100"), url("MuseoSansRounded100.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Code";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Source Code Pro Regular"), url("SourceCodePro-Regular.ttf") format("ttf");
 }
 
 :root{
@@ -12,7 +26,7 @@
   --mid_accent: #5641a2;
   --light-accent: #8864b3;
   --dark-grey: #444444;
-  --light-light-accent: #b3b6ee;
+  --light-light-accent: #d6d3e6;
   --mail: #8206a0;
 }
 
@@ -25,7 +39,7 @@ body {
   text-align: left;
   margin: .5em;
   padding: 0;
-  font-family: "Museo";
+  font-family: "Museo500";
   font-weight: normal;
   font-size: 15pt;
   background: var(--background);
@@ -95,14 +109,14 @@ li {
 }
 
 .project_title {
-  font-family: "Museo";
-  font-variant: small-caps;
-  font-weight: bold;
+  font-family: "Code", sans-serif;
+  font-variant-caps: small-caps;
+  color: var(--dark-grey);
   font-size: 16pt;
 }
 
 .date {
-  font-family: "Museo";
+  font-family: "Museo100";
   font-weight: bold;
   float: right;
 }
