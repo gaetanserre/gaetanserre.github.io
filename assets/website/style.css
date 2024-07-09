@@ -13,10 +13,10 @@
 }
 
 @font-face {
-  font-family: "Code";
+  font-family: "FiraCode";
   font-style: normal;
   font-weight: normal;
-  src: local("Source Code Pro Regular"), url("SourceCodePro-Regular.ttf") format("ttf");
+  src: local("FiraCode Nerd Font Light"), url("FiraCodeNerdFont-Light.ttf") format("ttf");
 }
 
 :root{
@@ -109,8 +109,8 @@ li {
 }
 
 .project_title {
-  font-family: "Code", sans-serif;
-  font-variant-caps: small-caps;
+  font-family: "FiraCode";
+  font-variant: small-caps;
   color: var(--dark-grey);
   font-size: 16pt;
 }
