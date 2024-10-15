@@ -53,6 +53,12 @@ h1 {
   color: var(--accent);
 }
 
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: var(--light-accent);
+}
+
 img {
   margin: 1em;
 }
