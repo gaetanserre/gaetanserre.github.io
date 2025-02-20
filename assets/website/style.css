@@ -1,22 +1,16 @@
 @font-face {
   font-family: "Museo500";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Museo Sans Rounded 500"), url("MuseoSansRounded500.woff") format("woff");
+  src: url("MuseoSansRounded500.woff");
 }
 
 @font-face {
   font-family: "Museo100";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Museo Sans Rounded 100"), url("MuseoSansRounded100.woff") format("woff");
+  src: url("MuseoSansRounded100.woff");
 }
 
 @font-face {
   font-family: "FiraCode";
-  font-style: normal;
-  font-weight: normal;
-  src: local("FiraCode Nerd Font Light"), url("FiraCodeNerdFont-Light.ttf") format("ttf");
+  src: url("FiraCodeNerdFont-Light.ttf");
 }
 
 :root {
@@ -244,4 +238,8 @@ li {
 
 .ring-container a:hover {
   color: var(--mid-accent);
+}
+
+.icon {
+  font-family: "FiraCode";
 }
