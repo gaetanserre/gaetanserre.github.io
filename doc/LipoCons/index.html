@@ -858,18 +858,18 @@ window.onload = () => {
                 <li>
                   <p>
                     For any Lipschitz function <code class="math inline">f</code> defined on <code class="math inline">\mathcal{X}</code>,
-  <code class="math display">\max_{i = 1 \dots n} f(X_i) \xrightarrow{p} \max_{x \in \mathcal{X}} f(x).</code></p>
+  <code class="math display">\sup_{x \in \mathcal{X}} \min_{i = 1 \dots n} f(X_i) \xrightarrow{p} 0.</code></p>
                   </li>
                 <li>
                   <p>
                     For any Lipschitz function <code class="math inline">f</code> defined on <code class="math inline">\mathcal{X}</code>,
-  <code class="math display">\sup_{x \in \mathcal{X}} \min_{i = 1 \dots n} f(X_i) \xrightarrow{p} 0.</code></p>
+  <code class="math display">\max_{i = 1 \dots n} f(X_i) \xrightarrow{p} \max_{x \in \mathcal{X}} f(x).</code></p>
                   </li>
                 </ol>
               <p>
                 Here <code class="math inline">\mathcal{X} \subset \mathbb{R}^d</code> is compact, <code class="math inline">(X_i)_{1 \le i \le n}</code> are the samples produced by the algorithm <code class="math inline">A</code> after <code class="math inline">n</code> iterations, and <code class="math inline">\xrightarrow{p}</code> denotes the convergence in probability.</p>
               <p>
-                One can see that <strong>(1)</strong> is a popular definition of the consistency of a stochastic iterative global optimization algorithm while <strong>(2)</strong> means that <code class="math inline">A</code> samples the whole domain <code class="math inline">\mathcal{X}</code>.</p>
+                One can see that <strong>(2)</strong> is a popular definition of the consistency of a stochastic iterative global optimization algorithm while <strong>(1)</strong> means that <code class="math inline">A</code> samples the whole domain <code class="math inline">\mathcal{X}</code>.</p>
               <p>
                 This manual is dedicated to the <a href="https://lean-lang.org/"><code>L∃∀N</code></a> formalization of this proposition.</p>
               </div>

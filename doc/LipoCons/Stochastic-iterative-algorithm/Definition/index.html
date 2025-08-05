@@ -861,7 +861,7 @@ window.onload = () => {
   </span><span class="const token" data-binding="const-Algorithm.markov_kernel" data-verso-hover="14">markov_kernel</span><span class="inter-text"> </span><span class="unknown token" data-binding="">(</span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span><span class="inter-text"> </span><span class="unknown token" data-binding="">:</span><span class="inter-text"> </span><span class="unknown token" data-binding="">ℕ</span><span class="unknown token" data-binding="">)</span><span class="inter-text"> </span><span class="unknown token" data-binding="">:</span><span class="inter-text"> </span><span class="const token" data-binding="const-ProbabilityTheory.IsMarkovKernel" data-verso-hover="15">IsMarkovKernel</span><span class="inter-text"> </span><span class="unknown token" data-binding="">(</span><span class="var token" data-binding="var-_uniq.116" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span><span class="unknown token" data-binding="">)</span></code><p>
               The type <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-prod_iter_image" data-verso-hover="13">prod_iter_image</span></code> is the product type <code>(Fin (n + 1) → α) × (Fin (n + 1) → β)</code> which represents the sequence of samples and their evaluations at each iteration. The measure <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> is the initial probability measure from which the first sample is drawn, and <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.kernel_iter" data-verso-hover="10">kernel_iter</span></code> is the Markov kernel that defines how to sample the next element based on the previous ones.</p>
             <p>
-              <strong>We give three concrete examples of algorithms that fit this definition.</strong></p>
+              <strong>To assess the validity of this definition, we encompass three well-known algorithms in the literature into this framework.</strong></p>
             <section>
               <h2 id="Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition--Pure-Random-Search">
                 1.1.1. Pure Random Search</h2>
@@ -890,11 +890,11 @@ window.onload = () => {
                   </li>
                 <li>
                   <p>
-                    <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.116" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(x)) \mapsto \mathcal{U}(E(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the uniform measure on the set <code class="math inline">E(X, f(X))</code> defined as
+                    <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.116" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(X)) \mapsto \mathcal{U}(E(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the uniform measure on the set <code class="math inline">E(X, f(X))</code> defined as
   <code class="math display">
   E(X, f(X)) := \{x : \alpha \; | \; \max_{1 \le i \le n} f(X_i) \le \min_{1 \le i \le n} f(X_i) + \kappa(X, f(X)) \cdot d(x, X_i)\}
   </code>
-  where <code class="math inline">\kappa(X, f(X))</code> is an estimation of the Lipschitz constant of the function <code class="math inline">f</code> based on the previous samples and their evaluations.</p>
+  where <code class="math inline">(X, f(X)) \triangleq \left[(X_1, \dots, X_n), (f(X_1), \dots, f(X_n))\right]</code> and <code class="math inline">\kappa(X, f(X))</code> is an estimation of the Lipschitz constant of the function <code class="math inline">f</code> based on the previous samples and their evaluations.</p>
                   </li>
                 </ul>
               <section>
@@ -909,7 +909,7 @@ window.onload = () => {
                     </li>
                   <li>
                     <p>
-                      <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.116" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(X)) \mapsto \mathcal{N}(\mu(X, f(x)), \Sigma(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the multivariate normal distribution with mean <code class="math inline">\mu(X, f(x))</code> and covariance matrix <code class="math inline">\Sigma(X, f(x))</code> adapted based on the previous samples and their evaluations.</p>
+                      <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.116" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.118" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(X)) \mapsto \mathcal{N}(\mu(X, f(X)), \Sigma(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the multivariate normal distribution with mean <code class="math inline">\mu(X, f(X))</code> and covariance matrix <code class="math inline">\Sigma(X, f(X))</code> adapted based on the previous samples and their evaluations.</p>
                     </li>
                   </ul>
                 </section>
