@@ -210,9 +210,18 @@ li {
 }
 
 .copyright {
-  /* font-size: 15pt; */
   color: var(--dark-grey);
   text-align: right;
+  font-size: 12pt;
+}
+
+.copyright a {
+  color: var(--dark-grey);
+  border-bottom: none;
+}
+
+.copyright a:hover {
+  color: var(--mid-accent);
 }
 
 .asahi {
@@ -227,16 +236,17 @@ li {
   margin: auto;
   /* font-size: 13pt; */
   color: var(--webring);
+  text-align: center;
 }
 
-.ring-container a {
+.ring-link {
   font-size: 18pt;
   font-weight: bold;
   border-bottom: none;
   color: var(--webring);
 }
 
-.ring-container a:hover {
+.ring-link:hover {
   color: var(--mid-accent);
 }
 
