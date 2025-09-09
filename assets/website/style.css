@@ -125,6 +125,7 @@ li {
 .container {
   display: flex;
   align-items: center;
+  margin-top: 50px;
 }
 
 .row .column_l .column_r {
@@ -141,7 +142,6 @@ li {
 .small_separator {
   float: center;
   background-color: var(--dark-grey);
-  ;
   height: 6px;
   border-radius: 4px;
   max-width: 200px;
@@ -157,7 +157,7 @@ li {
   float: left;
   width: 48%;
   padding: 10px;
-  border-right: 2px solid var(--dark-grey);
+  border-right: 3px solid var(--dark-grey);
 }
 
 .column_r {
