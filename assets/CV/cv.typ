@@ -1,7 +1,7 @@
 #import "template_cv.typ": *
 
 #show: doc => config(
-  "pp.jpg",
+  "dither_pp.png",
   [Gaëtan Serré],
   [PhD student in mathematics at Centre Borelli, École Normale Supérieure Paris-Saclay.],
   "gaetan.serre@ens-paris-saclay.fr",
@@ -17,6 +17,13 @@ I am working on convergent approximation methods for global optimization. My mai
 #v(-1em)
 
 #section_title([Papers])
+#paper_entry(
+  [Formal equivalence between global optimization consistency and random search],
+  "https://arxiv.org/qbs/2508.20671",
+  "arXiv",
+  "2025",
+)
+
 #paper_entry(
   [Stein Boltzmann Sampling: A Variational Approach for Global Optimization],
   "https://arxiv.org/abs/2402.04689",
@@ -36,13 +43,6 @@ I am working on convergent approximation methods for global optimization. My mai
   "https://www.ipol.im/pub/pre/469/",
   "IPOL",
   "2023",
-)
-
-#paper_entry(
-  [Reinforcement learning for Energies of the future and carbon neutrality: a Challenge Design],
-  "https://arxiv.org/abs/2207.10330",
-  "arXiv",
-  "2022",
 )
 
 #section_title([Education])
