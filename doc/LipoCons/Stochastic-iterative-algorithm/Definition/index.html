@@ -830,7 +830,7 @@ window.onload = () => {
             <div class="split-toc">
               <div class="title">
                 <label for="--verso-manual-toc-Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm" class="toggle-split-toc"><input type="checkbox" class="toggle-split-toc" id="--verso-manual-toc-Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm" checked="checked"></label><span class="number">1.</span> <span class=""><a href="Stochastic-iterative-algorithm/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm">Stochastic iterative algorithm</a></span></div>
-              <table><tr class="current numbered"><td class="num">1.1.</td><td><a href="Stochastic-iterative-algorithm/Definition/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition">Definition</a></td></tr><tr class="numbered"><td class="num">1.2.</td><td><a href="Stochastic-iterative-algorithm/Measure-on-sequences/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Measure-on-sequences">Measure on sequences</a></td></tr><tr class="numbered"><td class="num">1.3.</td><td><a href="Stochastic-iterative-algorithm/Useful-lemmas/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Useful-lemmas">Useful lemmas</a></td></tr></table></div>
+              <table><tr class="current numbered"><td class="num">1.1.</td><td><a href="Stochastic-iterative-algorithm/Definition/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition">Definition</a></td></tr><tr class="numbered"><td class="num">1.2.</td><td><a href="Stochastic-iterative-algorithm/Measure-on-sequences/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Measure-on-sequences">Measure on sequences</a></td></tr><tr class="numbered"><td class="num">1.3.</td><td><a href="Stochastic-iterative-algorithm/Useful-properties/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Useful-properties">Useful properties</a></td></tr></table></div>
             <div class="split-toc">
               <div class="title">
                 <label for="--verso-manual-toc-Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition" class="toggle-split-toc"><input type="checkbox" class="toggle-split-toc" id="--verso-manual-toc-Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition" checked="checked"></label><span class="number">1.1.</span> <span class="current"><a href="Stochastic-iterative-algorithm/Definition/#Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition">Definition</a></span></div>
@@ -870,7 +870,7 @@ window.onload = () => {
               <ul>
                 <li>
                   <p>
-                    <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> := <code class="math inline">\mathcal{U}(\alpha)</code> is the uniform measure on the search space <code class="math inline">\alpha</code>.</p>
+                    <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> <code>:=</code> <code class="math inline">\mathcal{U}(\alpha)</code> is the uniform measure on the search space <code class="math inline">\alpha</code>.</p>
                   </li>
                 <li>
                   <p>
@@ -886,13 +886,13 @@ window.onload = () => {
               <ul>
                 <li>
                   <p>
-                    <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> := <code class="math inline">\mathcal{U}(\alpha)</code> is the uniform measure on the search space <code class="math inline">\alpha</code>.</p>
+                    <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> <code>:=</code> <code class="math inline">\mathcal{U}(\alpha)</code> is the uniform measure on the search space <code class="math inline">\alpha</code>.</p>
                   </li>
                 <li>
                   <p>
                     <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.134" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.136" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(X)) \mapsto \mathcal{U}(E(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the uniform measure on the set <code class="math inline">E(X, f(X))</code> defined as
   <code class="math display">
-  E(X, f(X)) := \{x : \alpha \; | \; \max_{1 \le i \le n} f(X_i) \le \min_{1 \le i \le n} f(X_i) + \kappa(X, f(X)) \cdot d(x, X_i)\}
+  E(X, f(X)) \coloneqq \{x : \alpha \; | \; \max_{1 \le i \le n} f(X_i) \le \min_{1 \le i \le n} f(X_i) + \kappa(X, f(X)) \cdot d(x, X_i)\}
   </code>
   where <code class="math inline">(X, f(X)) \triangleq \left[(X_1, \dots, X_n), (f(X_1), \dots, f(X_n))\right]</code> and <code class="math inline">\kappa(X, f(X))</code> is an estimation of the Lipschitz constant of the function <code class="math inline">f</code> based on the previous samples and their evaluations.</p>
                   </li>
@@ -901,15 +901,19 @@ window.onload = () => {
                 <h3 id="Consistency-of-global-optimization-algorithms--Stochastic-iterative-algorithm--Definition--AdaLIPO--CMA-ES">
                   1.1.2.1. CMA-ES</h3>
                 <p>
-                  The CMA-ES (Covariance Matrix Adaptation Evolution Strategy) is a popular stochastic iterative global introduced in  (Hansen and Ostermeier, 1996)<span class="marginalia"><span class="note"><span class="citation">Nikolaus Hansen and Andreas Ostermeier, 1996. “Adapting arbitrary normal mutation distributions in evolution strategies: The covariance matrix adaptation”. In <em>Proceedings of IEEE international conference on evolutionary computation.</em></span></span></span>. It samples from a multivariate normal distribution whose mean and covariance matrix is adapted based on the previous samples. The algorithm can be defined as follows:</p>
+                  The CMA-ES (Covariance Matrix Adaptation Evolution Strategy) is a well-known algorithm for continuous global optimization, introduced in  (Hansen and Ostermeier, 1996)<span class="marginalia"><span class="note"><span class="citation">Nikolaus Hansen and Andreas Ostermeier, 1996. “Adapting arbitrary normal mutation distributions in evolution strategies: The covariance matrix adaptation”. In <em>Proceedings of IEEE international conference on evolutionary computation.</em></span></span></span>. At each iteration, it samples <code class="math inline">k</code> points according to a multivariate normal distribution where the mean and the covariance matrix depend on the previous iterations. Given a continuous function <code class="math inline">f : \Omega \to \mathbb{R}</code>, we construct <code class="math inline">\tilde{f} : \Omega^k \to \mathbb{R}^k</code> by
+<code class="math display">
+  \tilde{f}(x_1, \dots, x_k) = (f(x_1), \dots, f(x_k)).
+</code>
+This new definition lets us view CMA-ES as a procedure that generates samples in <code class="math inline">\Omega^k</code>, where <code class="math inline">\tilde{f}</code> is employed to construct the transition kernels. The CMA-ES algorithm can be defined as follows:</p>
                 <ul>
                   <li>
                     <p>
-                      <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> := <code class="math inline">\mathcal{N}(\mu, \Sigma)</code> is the multivariate normal measure on the search space <code class="math inline">\alpha</code> with mean <code class="math inline">\mu</code> and covariance matrix <code class="math inline">\Sigma</code>.</p>
+                      <code class="hl lean inline" data-lean-context="examples"><span class="const token" data-binding="const-Algorithm.ν" data-verso-hover="5">ν</span></code> <code>:=</code> <code class="math inline">\mathcal{N}^{\otimes k}(\mu, \Sigma)</code> is the <code class="math inline">k</code>-product of multivariate normal measures on the search space <code class="math inline">\alpha</code> with mean <code class="math inline">\mu</code> and covariance matrix <code class="math inline">\Sigma</code>.</p>
                     </li>
                   <li>
                     <p>
-                      <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.134" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.136" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, f(X)) \mapsto \mathcal{N}(\mu(X, f(X)), \Sigma(X, f(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the multivariate normal distribution with mean <code class="math inline">\mu(X, f(X))</code> and covariance matrix <code class="math inline">\Sigma(X, f(X))</code> adapted based on the previous samples and their evaluations.</p>
+                      <code class="hl lean inline" data-lean-context="examples"><span class="var token" data-binding="var-_uniq.134" data-verso-hover="16">kernel_iter</span><span class="inter-text"> </span><span class="var token" data-binding="var-_uniq.136" data-verso-hover="11">n</span></code> <code>:=</code> <code class="math inline">(X, \tilde{f}(X)) \mapsto \mathcal{N}(\mu(X, \tilde{f}(X)), \Sigma(X, \tilde{f}(X)))</code> is the Markov kernel that maps any pair of samples/evaluations to the multivariate normal distribution with mean <code class="math inline">\mu(X, \tilde{f}(X))</code> and covariance matrix <code class="math inline">\Sigma(X, \tilde{f}(X))</code> adapted based on the previous samples and their evaluations.</p>
                     </li>
                   </ul>
                 </section>
