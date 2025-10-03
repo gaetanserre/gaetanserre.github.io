@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="997.000000pt"
+   height="450.000000pt"
+   viewBox="0 0 997.000000 450.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   sodipodi:docname="LIPS_name_black.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.52134506"
+     inkscape:cx="501.58718"
+     inkscape:cy="426.78068"
+     inkscape:window-width="976"
+     inkscape:window-height="1186"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="translate(0.000000,450.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g2">
+    <path
+       d="M500 2250 l0 -1750 4500 0 4500 0 0 1125 0 1125 -500 0 -500 0 0 125 0 125 500 0 500 0 0 500 0 500 -1000 0 -1000 0 0 -1125 0 -1125 500 0 500 0 0 -125 0 -125 -1375 0 -1375 0 0 375 0 375 500 0 500 0 0 875 0 875 -1000 0 -1000 0 0 -1250 0 -1250 -375 0 -375 0 0 625 0 625 -500 0 -500 0 0 -625 0 -625 -375 0 -375 0 0 375 0 375 -375 0 -375 0 0 875 0 875 -500 0 -500 0 0 -1750z m5750 875 l0 -375 -250 0 -250 0 0 375 0 375 250 0 250 0 0 -375z"
+       id="path1"
+       style="fill:#3f4e9b;fill-opacity:1" />
+    <path
+       d="M3000 3500 l0 -500 500 0 500 0 0 500 0 500 -500 0 -500 0 0 -500z"
+       id="path2"
+       style="fill:#ff4600;fill-opacity:1" />
+  </g>
+</svg>
