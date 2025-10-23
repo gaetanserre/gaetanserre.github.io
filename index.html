@@ -4,6 +4,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="assets/website/links.js"></script>
+  <script src="assets/website/profile_picture.js"></script>
 
   <link rel="stylesheet" type="text/css" href="assets/website/style.css">
   <link rel="stylesheet" href="assets/website/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -15,9 +16,20 @@
   <meta name="description" content="PhD student in mathematics at Centre Borelli">
 </head>
 
+<script>
+  const img = document.getElementById("toggleImage");
+  img.addEventListener("click", () => {
+    if (img.src.includes("picture.png")) {
+      img.src = "assets/website/in_lasagna.jpg";
+    } else {
+      img.src = "assets/website/picture.png";
+    }
+  });
+</script>
+
 <body>
   <div class="container">
-    <img src="assets/website/picture.png" height="270 px">
+    <img id="toggleImage" src="assets/website/picture.png" width="220 px" style="cursor: pointer;">
     <div style="text-align: justify;">
       <div class="name">Gaëtan <span class="last_name">Serré</span></div>
       <p>
@@ -306,6 +318,8 @@
       </ul>
     </div>
   </div>
+
+
 
   <!-- <div class="separator"></div> -->
 
