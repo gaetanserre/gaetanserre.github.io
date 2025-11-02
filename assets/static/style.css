@@ -1,0 +1,293 @@
+:root {
+  --background: #ffffff;
+  --accent: #134892;
+  --accent-comp: #8acda5;
+  --gray: #808080;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: var(--background);
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--accent-comp);
+}
+
+a:visited {
+  color: var(--accent);
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+header {
+  margin-top: -60px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+main {
+  margin-left: 250px;
+  margin-top: 100px;
+  padding-left: 3em;
+  font-size: 0.85em;
+  text-align: justify;
+}
+
+.subtitle {
+  font-size: 10pt;
+  color: var(--gray);
+  border-bottom: solid 1px var(--gray);
+}
+
+ul {
+  margin: 0, 0;
+  padding: 0;
+  list-style: none;
+}
+
+img.me {
+  padding-top: 1.2em;
+  width: 100%;
+}
+
+.section {
+  border-bottom: solid 1px var(--gray);
+}
+
+.section>p {
+  color: var(--gray);
+}
+
+a>small {
+  color: var(--gray);
+}
+
+.img-container {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.img-container>a>img {
+  width: 100%;
+}
+
+.img-container>a:hover {
+  background-color: transparent;
+}
+
+ul.papers li {
+  padding-bottom: 3em;
+}
+
+.paper-title,
+.talk-title,
+.teaching-title,
+.internship-title,
+.education-degree {
+  font-weight: 600;
+}
+
+.paper-authors {
+  margin-top: -0.5em;
+  color: var(--gray);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.paper-actions,
+.project-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.paper-actions>button {
+  justify-self: center;
+  padding: 0.6em;
+  width: 5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.paper-actions>a,
+.project-links>a {
+  justify-self: center;
+  padding: 0.6em;
+  width: 3.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  text-align: center;
+}
+
+.paper-actions>button:hover,
+.paper-actions>a:hover,
+.project-links>a:hover {
+  background-color: var(--accent-comp);
+  cursor: pointer;
+}
+
+.paper-actions>button:first-child,
+.paper-actions>a:first-child,
+.project-links>a:first-child {
+  justify-self: start;
+}
+
+.paper-actions>button:last-child,
+.paper-actions>a:last-child,
+.project-links>a:last-child {
+  justify-self: end;
+}
+
+.abstract>p {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.talk-loc,
+.teaching-level,
+.internship-loc,
+.education-loc {
+  font-weight: 300;
+  color: var(--gray);
+}
+
+ul.talks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 1em;
+}
+
+.teaching-corrections {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+table.projects {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 1em 0;
+  padding-bottom: 2em;
+}
+
+table.projects td {
+  width: 10%;
+  vertical-align: top;
+  padding: 0 1em;
+}
+
+table.projects img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+table.projects video {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-title {
+  font-weight: 600;
+  text-align: center;
+  font-size: large;
+}
+
+.project-links>a {
+  width: 4rem;
+  margin-bottom: 1em;
+}
+
+.ring-footer {
+  margin-top: 0.5em;
+
+  text-align: center;
+}
+
+.footer {
+  padding: 1em 0em 2em 0em;
+  text-align: center;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+  font-size: 1.5em;
+}
+
+.header-links>a {
+  color: var(--gray);
+}
+
+.header-links>a:hover {
+  color: var(--accent);
+  background-color: transparent;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  img.me {
+    width: 200px;
+  }
+
+  main {
+    margin-left: 0px;
+    padding-left: 0em;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  img.me {
+    width: 100%;
+  }
+
+  .img-container>img {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/

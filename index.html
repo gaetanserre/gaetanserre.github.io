@@ -2,339 +2,285 @@
 <html lang="en">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/static/style.css">
+  <link rel="stylesheet" href="assets/static/font-awesome-4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="assets/website/links.js"></script>
-  <script src="assets/website/profile_picture.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="assets/website/style.css">
-  <link rel="stylesheet" href="assets/website/font-awesome-4.7.0/css/font-awesome.min.css">
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="assets/static/links.js"></script>
+  <script src="assets/static/display_abstract.js"></script>
   <meta name="keywords" content="Gaëtan Serré, Serré, PhD, mathematics, doctorat, mathématiques">
-  <link rel="icon" type="image/x-icon" href="assets/website/favicon.ico">
   <title>Gaëtan Serré</title>
-  <meta name="description" content="PhD student in mathematics at Centre Borelli">
+  <meta name="description" content="PhD candidate in mathematics at Centre Borelli">
 </head>
 
-<script>
-  const img = document.getElementById("toggleImage");
-  img.addEventListener("click", () => {
-    if (img.src.includes("picture.png")) {
-      img.src = "assets/website/in_lasagna.jpg";
-    } else {
-      img.src = "assets/website/picture.png";
-    }
-  });
-</script>
+<div class="container">
 
-<body>
-  <div class="container">
-    <img id="toggleImage" src="assets/website/picture.png" width="220 px" style="cursor: pointer;">
-    <div style="text-align: justify;">
-      <div class="name">Gaëtan <span class="last_name">Serré</span></div>
+  <header>
+    <h1>Gaëtan Serré</h1>
+    <div class="subtitle">
+      <p>PhD candidate in mathematics</p>
+      <p>Centre Borelli — ENS Paris-Saclay</p>
+    </div>
+
+    <img class="me" src="assets/static/profile.avif" alt="">
+    <div class="header-links">
+      <a href="https://github.com/gaetanserre"><i class="fa fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=C2T0J0wAAAAJ"><i class="fa fa-graduation-cap"></i></a>
+    </div>
+
+    <div class="ring-footer">
+      <a class="ring" href="https://percevalbejabattais.github.io/pbb.github.io/">↤</a> Webring des
+      <b>délices</b>
+      🥨 <a class="ring" href="https://danael_carbonneau.codeberg.page/">↦</a>
+    </div>
+
+  </header>
+
+  <main>
+    <h1 id="about">About</h1>
+    <div class="section">
       <p>
-        PhD student in mathematics at <a href="https://centreborelli.ens-paris-saclay.fr/fr">Centre Borelli</a>, <a
-          href="https://ens-paris-saclay.fr/">École Normale Supérieure Paris-Saclay</a>, Office 3S28.
+        I am a PhD student in mathematics at Centre Borelli — École Normale Paris-Saclay since 2023, under the
+        supervision of <a href="https://nvayatis.perso.math.cnrs.fr/">Nicolas Vayatis</a> and <a
+          href="https://kalogeratos.com/">Argyris
+          Kalogeratos</a>.
       </p>
-      <div style="text-align: center;">
-        <ul class="inline">
-          <li>
-            <a href="mailto:gaetan.serre@ens-paris-saclay.fr"
-              style="font-size: 13pt;">gaetan.serre&nbsp;<small>[at]</small>&nbsp;ens-paris-saclay&nbsp;<small>[dot]</small>&nbsp;fr</a>
-          </li>
+      <p>
+        I study and design global optimization algorithms, especially those modeled as systems of stochastic
+        differential
+        equations. I am also particularly interested in measure theory and in the formalization of optimization
+        algorithms
+        and their results using the <a href="https://lean-lang.org/">L∃∀N</a> proof assistant. I contribute to
+        <a href="https://github.com/leanprover-community/mathlib4">Mathlib</a>, its mathematics library.
+      </p>
+    </div>
 
-          <li>
-            <a href="https://scholar.google.com/citations?user=C2T0J0wAAAAJ"><i class="fa fa-graduation-cap "></i></a>
-          </li>
 
-          <li>
-            <a href="https://github.com/gaetanserre"><i class="fa fa-github"></i></a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/ga%C3%ABtan-serr%C3%A9-165974205/"><i class="fa fa-linkedin"></i></a>
-          </li>
-        </ul>
+    <h1 id="contact">Contact</h1>
+    <div class="section">
+      <ul class="contact">
+        <li>Email: <a
+            href="mailto:gaetan.serre@ens-paris-saclay.fr">gaetan.serre&nbsp;<small>[at]</small>&nbsp;ens-paris-saclay&nbsp;<small>[dot]</small>&nbsp;fr</a>
+        </li>
+        <li>Address: <span style="color: var(--gray)">Office 3S28</span>, <a
+            href="https://osm.org/go/0BOQnUH7M?way=758213419">École Normale
+            Supérieure
+            Paris-Saclay</a></li>
+      </ul>
+      <div class="img-container">
+        <a href="https://osm.org/go/0BOQnUH7M?way=758213419"><img src="./assets/static/map.avif" alt=""></a>
       </div>
     </div>
-  </div>
 
-  <div class="separator"></div>
+    <h1 id="publications">Publications</h1>
+    <div class="section">
+      <ul class="papers">
+        <li>
+          <p class="paper-title">Formal equivalence between global optimization consistency and random search</p>
+          <p class="paper-authors">Gaëtan Serré</p>
+          <div class="paper-actions">
+            <button onclick="toggleDivVisibility('formal-equiv')">abstract</button>
+            <a href="https://arxiv.org/abs/2508.20671">arXiv</a>
+          </div>
+          <div style="display: none;" id="formal-equiv" class="abstract">
+            <p>
+              We formalize a proof that any stochastic and iterative global optimization algorithm is consistent over
+              Lipschitz continuous functions if and only if it samples the whole search space. To achieve this, we use
+              the
+              L∃∀N theorem prover and the Mathlib library. The major challenge of this formalization, apart from the
+              technical aspects of the proof itself, is to converge to a definition of a stochastic and iterative global
+              optimization algorithm that is both general enough to encompass all algorithms of this type and specific
+              enough to be used in a formal proof. We define such an algorithm as a pair of an initial probability
+              measure
+              and a sequence of Markov kernels that describe the distribution of the next point sampled by the algorithm
+              given the previous points and their evaluations. We then construct a probability measure on finite and
+              infinite sequences of iterations of the algorithm using the Ionescu-Tulcea theorem.
+            </p>
+          </div>
+        </li>
+        <li>
+          <p class="paper-title">Stein Boltzmann Sampling: A Variational Approach for Global Optimization</p>
+          <p class="paper-authors">Gaëtan Serré, Argyris Kalogeratos & Nicolas Vayatis</p>
+          <div class="paper-actions">
+            <button onclick="toggleDivVisibility('sbs')">abstract</button>
+            <a href="https://proceedings.mlr.press/v258/serre25a.html">AISTATS</a>
+          </div>
+          <div style="display: none;" id="sbs" class="abstract">
+            <p>
+              In this paper, we present a deterministic particle-based method for global optimization of continuous
+              Sobolev functions, called <em>Stein Boltzmann Sampling</em> (SBS). SBS initializes uniformly a number of
+              particles representing candidate solutions, then uses the <em>Stein Variational Gradient Descent</em>
+              (SVGD)
+              algorithm to sequentially and deterministically move those particles in order to approximate a target
+              distribution whose mass is concentrated around promising areas of the domain of the optimized function.
+              The
+              target is chosen to be a properly parametrized Boltzmann distribution. For the purpose of global
+              optimization, we adapt the generic SVGD theoretical framework allowing to address more general target
+              distributions over a compact subset of Rd, and we prove SBS’s asymptotic convergence. In addition to the
+              main SBS algorithm, we present two variants: the SBS-PF that includes a particle filtering strategy, and
+              the
+              SBS-HYBRID one that uses SBS or SBS-PF as a continuation after other particle- or distribution-based
+              optimization methods. A detailed comparison with state-of-the-art methods on benchmark functions
+              demonstrates that SBS and its variants are highly competitive, while the combination of the two variants
+              provides the best trade-off between accuracy and computational cost.
+            </p>
+          </div>
+        </li>
+        <li>
+          <p class="paper-title">LIPO+: Frugal Global Optimization for Lipschitz Functions</p>
+          <p class="paper-authors">Gaëtan Serré, Perceval Beja-Battais, Sophia Chirrane, Argyris Kalogeratos & Nicolas
+            Vayatis</p>
+          <div class="paper-actions">
+            <button onclick="toggleDivVisibility('lipo+')">abstract</button>
+            <a href="https://dl.acm.org/doi/full/10.1145/3688671.3688763">SETN</a>
+          </div>
+          <div style="display: none;" id="lipo+" class="abstract">
+            <p>
+              In this paper, we propose simple yet effective empirical improvements to the algorithms of the LIPO
+              family,
+              introduced in <a href="https://proceedings.mlr.press/v70/malherbe17a/malherbe17a.pdf">[8]</a>, that we
+              call
+              LIPO+ and AdaLIPO+. We compare our methods to the vanilla versions of the algorithms over standard
+              benchmark
+              functions and show that they converge significantly faster. Finally, we show that the LIPO family is very
+              prone to the curse of dimensionality and tends quickly to Pure Random Search when the dimension increases.
+              We give a proof for this, which is also formalized in Lean mathematical language. Source codes and a demo
+              are provided online.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-  <div class="row">
-    <div class="column_l">
-
-      <h1>Research <span class="icon"></span></h1>
-      <p style="text-align: justify;">
-        I am working on convergent approximation methods for global optimization. My main research interests are <span
-          class="keyword">consistency of G.O methods</span>, <span class="keyword">measure theory</span>, and <span
-          class="keyword">stochastic differential equations</span>. I am currently working on my thesis with <a
-          href="https://nvayatis.perso.math.cnrs.fr/">Nicolas Vayatis</a>. In parallel, I use <a
-          href="https://lean-lang.org/">Lean</a> to formalize research results and I am contributing to <a
-          href="https://github.com/leanprover-community/mathlib4">Mathlib</a>, its mathematics library</a>.
+    <h1 id="projects">Projects</h1>
+    <div class="section">
+      <p>
+        Here is a non-exhaustive list of personal projects I have worked on.
       </p>
+      <table class="projects">
+        <tbody>
+          <tr>
+            <td>
+              <p class="project-title">GOB</p>
+              <img src="assets/static/projects/GOB/media/images/GOB_manim/GOB_ManimCE_v0.19.0.png" alt="">
+              <p>
+                GOB (Global Optimization Benchmark) is a Python package I developed to benchmark global optimization
+                algorithms over a wide range of test functions. It includes C++ implementations of many algorithms as
+                well as various benchmark functions.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/gaetanserre/GOB" class="project-link"><i class="fa fa-github"></i>
+                  Github</a>
+                <a href="/GOB" class="project-link"><i class="fa fa-book"></i> Doc</a>
+              </div>
+            </td>
+            <td>
+              <p class="project-title">LipoCons</p>
+              <video class="project-video" loop autoplay playsinline>
+                <source src="assets/static/projects/ackley/ackley_contour.webm" type="video/webm">
+              </video>
+              <p>
+                LipoCons is the L∃∀N formalization of the abstract definition of global optimization algorithms
+                presented in <a href="https://arxiv.org/abs/2508.20671">[1]</a>. It also includes the formalization of
+                the equivalence between consistency and
+                sampling the whole search space, a proposition introduced in <a
+                  href="https://proceedings.mlr.press/v70/malherbe17a/malherbe17a.pdf">[2]</a>.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/gaetanserre/LipoCons" class="project-link"><i class="fa fa-github"></i>
+                  Github</a>
+                <a href="/LipoCons" class="project-link"><i class="fa fa-book"></i> Doc</a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      <div class="margin"></div>
-
-      <h1>Publications <span class="icon"></span></h1>
-      <ul>
+    <h1 id="talks">Talks</h1>
+    <div class="section">
+      <ul class="talks">
         <li>
-          <div>
-            <p class="publication"><a href="https://arxiv.org/abs/2508.20671">Formal equivalence between global
-                optimization consistency and random search</a></p>
-            <span class="location">arXiv</span><span class="date"> 2025</span>
-          </div>
+          <span class="talk-title">Stein Boltzmann Sampling</span>
+          <span class="talk-loc">AISTATS — 2025</span>
         </li>
-
         <li>
-          <div>
-            <p class="publication"><a href="https://proceedings.mlr.press/v258/serre25a.html">Stein Boltzmann Sampling:
-                A Variational
-                Approach for Global Optimization</a></p>
-            <span class="location">AISTATS 2025</span><span class="date"> 2025</span>
-          </div>
+          <span class="talk-title">1<sup>st</sup> prize challenge Accenta</span>
+          <span class="talk-loc">Collège de France — 2024</span>
         </li>
-
         <li>
-          <div>
-            <p class="publication"><a href="https://dl.acm.org/doi/full/10.1145/3688671.3688763">LIPO+: Frugal Global
-                Optimization for Lipschitz Functions</a></p>
-            <span class="location">SETN 2024</span><span class="date"> 2024</span>
-          </div>
+          <span class="talk-title">AUTOML Decathlon</span>
+          <span class="talk-loc">NEURIPS — 2022</span>
         </li>
-
         <li>
-          <div>
-            <p class="publication"><a href="https://www.ipol.im/pub/pre/469/">Improvements of Global Optimization
-                Algorithms for Lipschitz Functions</a></p>
-            <span class="location">IPOL</span><span class="date"> 2023</span>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <p class="publication"><a href="https://arxiv.org/abs/2207.10330">Reinforcement learning for Energies of the
-                future and carbon neutrality: a Challenge Design</a></p>
-            <span class="location">arXiv</span><span class="date"> 2022</span>
-          </div>
-        </li>
-      </ul>
-
-      <div class="margin"></div>
-
-      <h1>Teaching <span class="icon">󰢐</span></h1>
-      <h2>2023 - 2025</h2>
-      <ul>
-        <li>
-          <p>
-            <a href="ISL.html">Introduction to Statistical Learning</a> - <span class="course">M2 MVA</span>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Analyse et Convergence - <span class="course">LDD2 IM</span>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Préparation oraux X (Math380X) - <span class="course">LDD3 Maths</span>
-          </p>
-        </li>
-
-        <li>
-          <p>
-            <span>Analyse exploratoire des données multivariées</span> - <span class="course">L3 Maths</span>
-          </p>
-        </li>
-      </ul>
-
-      <div class="margin"></div>
-
-      <h1>Talks <span class="icon"></span></h1>
-      <ul>
-        <li>
-          <div>
-            <p>Collège de France - <span class="subjet">1st prize challenge Accenta</span></p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location">Collège de France, France</span> <span class="date">2024</span>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <p>NeurIPS - <span class="subjet">AutoML Decathlon 2022</span></p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location">New Orleans, USA</span> <span class="date">2022</span>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <p>IEEE WCCI IJCNN - <span class="subjet">L2RPN 2022 competition</span></p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location">Padova, Italy</span> <span class="date">2022</span>
-          </div>
+          <span class="talk-title">L2RPN competition</span>
+          <span class="talk-loc">IEEE WCCI IJCNN — 2022</span>
         </li>
       </ul>
     </div>
 
-    <div class="column_r">
-      <h1>Education <span class="icon">󱛉</span></h1>
-      <ul>
+    <h1 id="teaching">Teaching</h1>
+    <div class="section">
+      <ul class="teaching">
         <li>
-          <div>
-            <p>M2 Mathématiques, Vision, Apprentissage</p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location"> École Normale Supérieure of Paris-Saclay</span> <span class="date">2022-2023</span>
+          <div class="teaching-corrections">
+            <span class="teaching-title">Introduction to Statistical Learning</span>
+            <span><a href="/ISL.html">corrections</a></span>
           </div>
-        </li>
-
-        <li>
-          <div>
-            <p>M1 Artificial Intelligence</p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location">Université Paris-Saclay</span> <span class="date">2021-2022</span>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <p>Double bachelor degree Computer Science & Mathematics</p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location">Université Paris-Saclay</span> <span class="date">2018-2021</span>
-          </div>
-        </li>
-      </ul>
-
-      <div class="margin"></div>
-
-      <h1>Research internships <span class="icon">󰼹</span></h1>
-      <ul>
-        <li>
-          <div>
-            <p>Pre-PhD on stochastic global optimization and sampling methods</p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location"><a href="https://centreborelli.ens-paris-saclay.fr/">Centre Borelli</a> - ENS
-              Paris-Saclay</span> <span class="date">2023</span>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <p>Deductive program checking using <a href="https://why3.lri.fr/">Why3</a></p>
-            <i class="fa fa-map-marker"></i>
-            <span class="location"><a href="https://lmf-lab.fr/">Laboratoire Méthodes Formelles</a></span> <span
-              class="date">2021</span>
-          </div>
-        </li>
-      </ul>
-
-      <div class="margin"></div>
-
-      <h1>Projects <span class="icon"></span></h1>
-      <ul>
-        <li>
-          <span class="project_title">lipocons</span> - <span class="subjet">Formalization Proposition 3 of <a
-              href="https://arxiv.org/abs/1703.02628">Global Optimization of Lipschitz functions, Malherbe et al.,
-              2017</a></span> <a class="no_underline" href="https://github.com/gaetanserre/LipoCons"><i
-              class="fa fa-github"></i></span></a>&nbsp;<a class="no_underline" href="/LipoCons/"><i
-              class="fa fa-book"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">gob</span> - <span class="subjet">A collection of global optimization algorithms
-            implemented in C++ and linked with Python.</span> <a class="no_underline"
-            href="https://github.com/gaetanserre/GOB"><i class="fa fa-github"></i></span></a>&nbsp;<a
-            class="no_underline" href="/GOB/"><i class="fa fa-book"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">lean-lipo</span> - <span class="subjet">Formalization of the <a
-              href="https://dl.acm.org/doi/full/10.1145/3688671.3688763">LIPO's reject probability upper bound</a> using
-            Lean 4.</span> <a class="no_underline" href="https://github.com/gaetanserre/Lean-LIPO"><i
-              class="fa fa-github"></i></span></a>&nbsp;<a class="no_underline" href="assets/Lean/LIPO/"><i
-              class="fa fa-code"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">sbs-proofs</span> - <span class="subjet">Formalization of some results of <a
-              href="https://arxiv.org/abs/2402.04689">SBS</a> using Lean 4.</span> <a class="no_underline"
-            href="https://github.com/gaetanserre/SBS-Proofs"><i class="fa fa-github"></i></span></a>&nbsp;<a
-            class="no_underline" href="assets/Lean/SBS/"><i class="fa fa-code"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">lean-formalization</span> - <span class="subjet">Formalization of some
-            mathematical results using Lean 4.</span> <a class="no_underline"
-            href="https://github.com/gaetanserre/Lean-Formalization"><i class="fa fa-github"></i></span></a>&nbsp;<a
-            class="no_underline" href="assets/Lean/Lean-Formalization/"><i class="fa fa-code"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">pygkls</span> - <span class="subjet">A Python wrapper around the <a
-              href="https://dl.acm.org/doi/10.1145/962437.962444">GKLS</a> function generator.</span> <a
-            class="no_underline" href="https://github.com/gaetanserre/pyGKLS"><i class="fa fa-github"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">vitdet-to-pose</span> - <span class="subjet">A extension of the ViTDet
-            architecture for human pose estimation. </span> <a class="no_underline"
-            href="https://github.com/gaetanserre/ViTDet-to-Pose"><i class="fa fa-github"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">gaia</span> - <span class="subjet">A chess engine using a deep neural network to
-            evaluate chess positions. </span> <a class="no_underline" href="https://github.com/gaetanserre/GAiA"><i
-              class="fa fa-github"></i></span></a>
-        </li>
-
-        <li>
-          <span class="project_title">lisa</span> - <span class="subjet">A 3D path tracing render engine.</span> <a
-            class="no_underline" href="https://github.com/gaetanserre/LiSA"><i class="fa fa-github"></i></span></a>
-        </li>
-      </ul>
-
-      <div class="margin"></div>
-
-      <h1>Miscellaneous <span class="icon"></span></h1>
-      <ul>
-        <li>
-          <a href="https://typst.app/">Typst</a> - <span class="subjet">A modern LaTeX alternative</span>
+          <p class="teaching-level">Master 2 Mathématique, Vision, Apprentissage</p>
         </li>
         <li>
-          <a href="https://github.com/jesseduffield/lazygit">Lazygit</a> - <span class="subjet">A simple terminal UI
-            for git commands</span>
+          <p class="teaching-title">Analyse & Convergence</p>
+          <p class="teaching-level">Licence 2 double-diplôme Informatique/Mathématiques</p>
         </li>
         <li>
-          <a href="https://adam.math.hhu.de/">Lean Game Server</a> - <span class="subjet">Several games to learn about
-            <a href="https://lean-lang.org/">Lean</a> and its mathematical library, Mathlib.</span>
-        </li>
-        <li>
-          <a href="https://learngitbranching.js.org/">Learn Git Branching</a> - <span class="subjet">A fun way to learn
-            Git.</span>
+          <p class="teaching-title">Préparation oraux X (Math380X)</p>
+          <p class="teaching-level">Licence 3 double-diplôme Mathématiques</p>
         </li>
       </ul>
     </div>
-  </div>
 
-
-
-  <!-- <div class="separator"></div> -->
-
-  <div class="container">
-    <div style="margin-right: auto; flex: 1;">
+    <h1 id="internships">Internships</h1>
+    <div class="section">
+      <ul class="internships">
+        <li>
+          <p class="internship-title">Pre-PhD on stochastic global optimization and sampling methods</p>
+          <p class="internship-loc">Centre Borelli — École Normale Supérieure Paris-Saclay, 2023</p>
+        </li>
+        <li>
+          <p class="internship-title">Deductive program checking using <a href="https://www.why3.org/">Why3</a></p>
+          <p class="internship-loc">Laboratoire Méthodes Formelles, 2021</p>
+        </li>
+      </ul>
     </div>
-    <div class="ring-container">
-      <a class="ring-link" href="https://percevalbejabattais.github.io/pbb.github.io/">↤</a> Webring des <b>délices</b>
-      🥨 <a class="ring-link" href="https://danael_carbonneau.codeberg.page/">↦</a>
-      <p><span class="copyright" style="margin-left: auto; flex: 1;"><i class="fa fa-copyright"></i>
-          2025 Gaëtan Serré · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></span>
-      </p>
-    </div>
-    <div style="margin-left: auto; flex: 1;">
-    </div>
-  </div>
 
-</body>
+    <h1 id="education">Education</h1>
+    <div class="section">
+      <ul class="education">
+        <li>
+          <p class="education-degree">M2 Mathématiques, Vision, Apprentissage</p>
+          <p class="education-loc">Centre Borelli — École Normale Supérieure Paris-Saclay, 2022–2023</p>
+        </li>
+        <li>
+          <p class="education-degree">M1 Artificial Intelligence</p>
+          <p class="education-loc">Université Paris-Saclay, 2021–2022</p>
+        </li>
+        <li>
+          <p class="education-degree">Double bachelor's degree in Mathematics & Computer Science</p>
+          <p class="education-loc">Université Paris-Saclay, 2018–2021</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <span class="copyright" style="margin-left: auto; flex: 1;"><i class="fa fa-copyright"></i>
+        2025 Gaëtan Serré · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></span>
+    </div>
+
+
+  </main>
+
+</div>
+
+</html>

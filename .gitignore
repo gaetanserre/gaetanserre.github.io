@@ -11,3 +11,5 @@
 *.synctex.gz
 *.xmpi
 .vscode/
+**/ackley/images/
+__pycache__/
