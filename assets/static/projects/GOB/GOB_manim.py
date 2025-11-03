@@ -39,22 +39,25 @@ def vggroup_function(bounds_x, bounds_y, func, num_points):
 class GOB(ThreeDScene):
 
     def construct(self):
+        self.camera.background_color = WHITE
         axes_color = "#69696a"
+
+        n_points_axis = 100
         x_points = [
             Dot3D(point=[x, 0, 1], radius=0.005, color=axes_color)
-            for x in np.linspace(-2, 2, 100)
+            for x in np.linspace(-2, 2, n_points_axis)
         ]
         x_axis_cloud = VGroup(*x_points)
 
         y_points = [
             Dot3D(point=[0, y, 1], radius=0.005, color=axes_color)
-            for y in np.linspace(-2, 2, 100)
+            for y in np.linspace(-2, 2, n_points_axis)
         ]
         y_axis_cloud = VGroup(*y_points)
 
         z_points = [
             Dot3D(point=[0, 0, z], radius=0.005, color=axes_color)
-            for z in np.linspace(-1, 3, 100)
+            for z in np.linspace(-1, 3, n_points_axis)
         ]
         z_axis_cloud = VGroup(*z_points)
 
@@ -76,7 +79,7 @@ class GOB(ThreeDScene):
 
         self.add(square_cloud, x_axis_cloud, z_axis_cloud, y_axis_cloud)
 
-        duration = 19 / 1.5
+        duration = 15
         self.begin_ambient_camera_rotation(rate=2 * PI / duration)
 
         self.wait(4)
@@ -85,8 +88,12 @@ class GOB(ThreeDScene):
 
         self.wait(4)
 
-        self.play(Transform(stiblinski_cloud, levy_cloud), run_time=1)
+        self.play(Transform(square_cloud, levy_cloud), run_time=1)
 
         self.wait(4)
 
-        self.play(Transform(levy_cloud, square_cloud), run_time=1)
+        square_cloud_final = vggroup_function(
+            [-1, 1], [-1, 1], lambda u, v: u**2 + v**2, n_points
+        )
+
+        self.play(Transform(square_cloud, square_cloud_final), run_time=1)

@@ -12,4 +12,5 @@
 *.xmpi
 .vscode/
 **/ackley/images/
+**/GOB/media/
 __pycache__/

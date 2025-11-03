@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
-  --accent: #134892;
-  --accent-comp: #8acda5;
+  --accent: #657ed4;
+  --accent-comp: #d4bb65;
   --gray: #808080;
 }
 
@@ -97,10 +97,6 @@ a>small {
   background-color: transparent;
 }
 
-ul.papers li {
-  padding-bottom: 3em;
-}
-
 .paper-title,
 .talk-title,
 .teaching-title,
@@ -194,7 +190,6 @@ table.projects {
   table-layout: fixed;
   border-collapse: separate;
   border-spacing: 1em 0;
-  padding-bottom: 2em;
 }
 
 table.projects td {
@@ -228,7 +223,6 @@ table.projects video {
 
 .ring-footer {
   margin-top: 0.5em;
-
   text-align: center;
 }
 
