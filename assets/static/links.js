@@ -1,13 +1,15 @@
 // Automatically add target="_blank" to all external links
 
-$(document).ready(function () {
-  $.expr[':'].external = function (obj) {
-    return !obj.href.match(/^mailto\:/)
-      && (obj.hostname != location.hostname)
-      && !obj.href.match(/^javascript\:/)
-      && !obj.href.match(/^$/)
-      && !obj.classList.contains("ring")
-  };
+document.addEventListener('DOMContentLoaded', function () {
+  const links = document.querySelectorAll('a[href]');
+  links.forEach(function (a) {
+    const href = a.getAttribute('href') || '';
 
-  $('a:external').attr('target', '_blank');
+    if (!href || href.startsWith('mailto:') || href.startsWith('javascript:')) return;
+    if (a.classList.contains('ring')) return;
+
+    if (a.hostname !== location.hostname) {
+      a.setAttribute('target', '_blank');
+    }
+  });
 });
