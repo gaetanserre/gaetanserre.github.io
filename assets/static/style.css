@@ -58,6 +58,7 @@ main {
 .subtitle {
   font-size: 10pt;
   color: var(--gray);
+  line-height: 0.5em;
   border-bottom: solid 1px var(--gray);
 }
 
