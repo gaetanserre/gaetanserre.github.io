@@ -237,23 +237,6 @@ table.projects video {
   text-align: center;
 }
 
-.header-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.5em;
-  font-size: 1.5em;
-}
-
-.header-links>a {
-  color: var(--gray);
-}
-
-.header-links>a:hover {
-  color: var(--accent);
-  background-color: transparent;
-}
-
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
 
