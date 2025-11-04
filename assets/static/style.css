@@ -68,6 +68,14 @@ ul {
   list-style: none;
 }
 
+ul.navbar li {
+  padding-bottom: 1em;
+}
+
+ul.navbar li:last-child {
+  padding-bottom: 0;
+}
+
 img.me {
   padding-top: 1.2em;
   width: 100%;
@@ -91,19 +99,16 @@ a>small {
   padding-top: 1em;
 }
 
-.img-container>a>img {
+.img-container>img {
   width: 100%;
-}
-
-.img-container>a:hover {
-  background-color: transparent;
 }
 
 .paper-title,
 .talk-title,
 .teaching-title,
 .internship-title,
-.education-degree {
+.education-degree,
+.misc-title {
   font-weight: 600;
 }
 
@@ -235,6 +240,10 @@ table.projects video {
 .footer {
   padding: 2em 0em 2em 0em;
   text-align: center;
+}
+
+.misc-title {
+  color: black;
 }
 
 /*---------------------------------------------------*/
