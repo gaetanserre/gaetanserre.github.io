@@ -36,7 +36,7 @@ a:visited {
 
 .container {
   margin: auto;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 header {
@@ -177,23 +177,6 @@ a>small {
 .education-loc {
   font-weight: 300;
   color: var(--gray);
-}
-
-ul.talks li {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding-bottom: 1em;
-}
-
-ul.talks li:last-child {
-  padding-bottom: 0;
-}
-
-.teaching-corrections {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 table.projects {
