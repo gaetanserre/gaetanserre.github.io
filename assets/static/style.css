@@ -58,7 +58,7 @@ main {
 .subtitle {
   font-size: 10pt;
   color: var(--gray);
-  line-height: 0.5em;
+  line-height: 1em;
   border-bottom: solid 1px var(--gray);
 }
 
@@ -128,7 +128,7 @@ a>small {
 .paper-actions>button {
   justify-self: center;
   padding: 0.6em;
-  width: 5rem;
+  width: 5.5em;
   border-radius: 5px;
   background-color: transparent;
   border: 2px solid var(--accent);
@@ -139,7 +139,7 @@ a>small {
 .project-links>a {
   justify-self: center;
   padding: 0.6em;
-  width: 3.5rem;
+  width: 4em;
   border-radius: 5px;
   background-color: transparent;
   border: 2px solid var(--accent);
@@ -181,15 +181,22 @@ a>small {
 
 table.projects {
   width: 100%;
-  table-layout: fixed;
-  border-collapse: separate;
-  border-spacing: 1em 0;
+  border-spacing: 2em 0;
 }
 
-table.projects td {
-  width: 10%;
+table.projects td,
+table.projects th {
+  width: 50%;
   vertical-align: top;
-  padding: 0 1em;
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.project-links-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 table.projects img {
@@ -211,7 +218,7 @@ table.projects video {
 }
 
 .project-links>a {
-  width: 4rem;
+  width: 4.6em;
   margin-bottom: 1em;
 }
 
