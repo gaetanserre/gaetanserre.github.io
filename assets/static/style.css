@@ -125,26 +125,15 @@ a>small {
   grid-template-columns: 1fr 1fr;
 }
 
-.paper-actions>button {
-  justify-self: center;
-  padding: 0.6em;
-  width: 5.5em;
-  border-radius: 5px;
-  background-color: transparent;
-  border: 2px solid var(--accent);
-  color: var(--accent);
-}
-
+.paper-actions>button,
 .paper-actions>a,
 .project-links>a {
   justify-self: center;
   padding: 0.6em;
-  width: 4em;
   border-radius: 5px;
   background-color: transparent;
   border: 2px solid var(--accent);
   color: var(--accent);
-  text-align: center;
 }
 
 .paper-actions>button:hover,
@@ -218,7 +207,6 @@ table.projects video {
 }
 
 .project-links>a {
-  width: 4.6em;
   margin-bottom: 1em;
 }
 
@@ -259,6 +247,12 @@ table.projects video {
     position: relative;
     margin-top: 0;
   }
+
+  .paper-actions>button,
+  .paper-actions>a,
+  .project-links>a {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -268,6 +262,12 @@ table.projects video {
 
   .img-container>img {
     width: 100%;
+  }
+
+  .paper-actions>button,
+  .paper-actions>a,
+  .project-links>a {
+    font-size: 1rem;
   }
 }
 
