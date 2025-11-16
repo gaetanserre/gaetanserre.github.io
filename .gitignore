@@ -13,4 +13,5 @@
 .vscode/
 **/ackley/images/
 **/GOB/media/
+**/GPEP/media/
 __pycache__/
