@@ -89,25 +89,26 @@
         href="https://scholar.google.com/citations?user=C2T0J0wAAAAJ">Google Scholar</a> profile.
       <ul class="papers">
         <li>
-          <p class="paper-title">Formal equivalence between global optimization consistency and random search</p>
-          <p class="paper-authors">Gaëtan Serré</p>
+          <p class="paper-title">A Unifying Framework for Global Optimization: From Theory to Formalization</p>
+          <p class="paper-authors">Gaëtan Serré, Argyris Kalogeratos & Nicolas Vayatis</p>
           <div class="paper-actions">
             <button onclick="toggleDivVisibility('formal-equiv')">abstract</button>
-            <a href="https://arxiv.org/abs/2508.20671">arXiv</a>
+            <a href="">arXiv</a>
           </div>
           <div style="display: none;" id="formal-equiv" class="abstract">
             <p>
-              We formalize a proof that any stochastic and iterative global optimization algorithm is consistent over
-              Lipschitz continuous functions if and only if it samples the whole search space. To achieve this, we use
-              the
-              L∃∀N theorem prover and the Mathlib library. The major challenge of this formalization, apart from the
-              technical aspects of the proof itself, is to converge to a definition of a stochastic and iterative global
-              optimization algorithm that is both general enough to encompass all algorithms of this type and specific
-              enough to be used in a formal proof. We define such an algorithm as a pair of an initial probability
-              measure
-              and a sequence of Markov kernels that describe the distribution of the next point sampled by the algorithm
-              given the previous points and their evaluations. We then construct a probability measure on finite and
-              infinite sequences of iterations of the algorithm using the Ionescu-Tulcea theorem.
+              We introduce an abstract measure‑theoretic framework that serves as a tool to rigorously study stochastic
+              iterative global optimization algorithms as a unified class. The framework is formulated in terms of
+              probability kernels, which, via the Ionescu–Tulcea theorem, induce probability measures on the space of
+              sequences of algorithm iterations, endowed with two intuitive properties. This framework answers the need
+              for a general, implementation‑independent formalism in the analysis of such algorithms, providing a
+              starting point for formalizing general results in proof-assistants. To illustrate the relevance of our
+              tool, we show that common algorithms fit naturally in the framework, and we also use it to give a rigorous
+              proof of a general consistency theorem for stochastic iterative global optimization algorithms
+              (Proposition 3 of <a href="https://proceedings.mlr.press/v70/malherbe17a/malherbe17a.pdf">[1]</a>). This
+              proof and the entire framework are formalized in the L∃∀N proof assistant.
+              This formalization both ensures the correctness of the definitions and proofs, and provides a basis for
+              future machine-assisted formalizations in the field.
             </p>
           </div>
         </li>
